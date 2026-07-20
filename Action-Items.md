@@ -1,6 +1,6 @@
 # Sidewalk Stories LA — Action Items and Tracker
 
-_Updated 2026-07-19. Status keys: DONE, NOW (ready to act), NEXT (queued), HOLD (gated)._ 
+_Updated 2026-07-20. Status keys: DONE, NOW (ready to act), NEXT (queued), HOLD (gated)._ 
 
 ## The Gate
 Nothing scales until two things clear: (1) Jason confirms partnership interest and tech role, and (2) the Year 1 financial model is credible enough to survive a grant officer review.
@@ -64,17 +64,21 @@ Goal: identify and rank 15 to 20 grant prospects aligned with youth arts, public
 - NEXT: Build a sponsorship pitch for local businesses ($750 per panel, logo on mosaic, social content).
 - NEXT: Evaluate fiscal sponsor options (existing LA nonprofits with youth arts or public safety programs that could house Sidewalk Stories LA for Year 1).
 
-## Track F — Digital Presence (HOLD until name and entity are firm)
+## Track F — Digital Presence (NOW)
 Goal: build the online footprint so funders, sponsors, and residents can find and verify the organization.
 
-- NOW: Register sidewalkstoriesla.org and sidewalkstoriesla.com at Namecheap (~$24/year).
-- NOW: Set up Google Workspace Business Starter ($6/month for 1 user, trevor@sidewalkstoriesla.org).
-- NEXT: Build landing page (mission, problem, program model, donate/sponsor CTA).
+- DONE: Register sidewalkstoriesla.org and sidewalkstoriesla.com at Namecheap (~$24/year).
+- DONE: Set up Google Workspace Business Starter ($6/month for 1 user, trevor@sidewalkstoriesla.org).
+- DONE: Build full multi-page website: index.html (landing), about.html, program.html, contact.html (with donate form), 404.html. Includes responsive CSS, interactive before/after slider, animated stat counters, mobile nav, scroll animations.
+- DONE: Create GitHub repo (CLSCRE/sidewalk-stories-la) and configure GitHub Pages auto-deployment via Actions workflow.
+- DONE: Configure custom domain (sidewalkstoriesla.org) on GitHub Pages. CNAME file added.
+- NOW: Add DNS A records at domain registrar pointing to GitHub Pages IPs (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153).
 - NEXT: Create Instagram and Facebook accounts (visual platforms suit public art best).
 - NEXT: Create LinkedIn presence for Trevor as Founder.
 - NEXT: Set up Google Business Profile for local search.
 - NEXT: Produce before/after content template for pilot panel storytelling.
 - NEXT: Set up a simple donation page (Stripe, PayPal, or through fiscal sponsor).
+- NEXT: Add actual photography to replace placeholders once pilot panels are complete.
 
 ## Track G — Program Operations (NEXT)
 Goal: design the actual workflow from resident submission to finished mosaic.
