@@ -46,13 +46,15 @@ Goal: form a California nonprofit public benefit corporation and pursue 501(c)(3
 ## Track D — City and Permitting Groundwork (Trevor)
 Goal: confirm the actual pathway to legally repair and mosaic a public sidewalk panel.
 
-- NOW: Contact LA Department of Transportation (DOT) or Bureau of Street Services about sidewalk repair permits and right of way work.
-- NOW: Research the Safe Sidewalks LA rebate program: can the nonprofit access it, partner with homeowners, or capture it as a cost offset?
-- NEXT: Confirm liability requirements when minors work on public right of way.
-- DONE: Pilot neighborhood selected: Trevor's neighborhood (Fairfax / Mid-City West area, near Blackburn Ave and Melrose).
+- DONE: Contact directory created with verified emails for BOE, StreetsLA, DCA, Safe Sidewalks LA, and Mid-City West Neighborhood Council. See City-Contact-Directory.md.
+- DONE: Outlook email draft created for sidewalks@lacity.org (BOE / Safe Sidewalks LA rebate program and right-of-way permits).
+- DONE: Outlook email draft created for dca.review@lacity.org (public art review process for sidewalk mosaics).
+- DONE: Outlook email draft created for outreach@midcitywest.org (community improvement grant inquiry).
+- NOW: Review and send the three city outreach emails from Outlook drafts.
+- NEXT: Confirm liability requirements when minors work on public right of way (pending city response).
+- DONE: Pilot neighborhood selected: Trevor's neighborhood (Fairfax / Mid-City West area, near Blackburn Ave and Melrose). Trevor's address: 7951 Blackburn Ave.
 - NEXT: Identify specific damaged sidewalk panels in Trevor's neighborhood to photograph for the app pilot.
 - NEXT: Identify one willing property owner adjacent to the pilot panel.
-- NEXT: Contact the Mid-City West Neighborhood Council about a local improvement grant.
 - NEXT: Get quotes from a licensed concrete crew and a teaching artist for a single panel.
 
 ## Track E — Funding and Grant Pipeline (Trevor)
