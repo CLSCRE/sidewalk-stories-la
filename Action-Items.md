@@ -39,8 +39,8 @@ Goal: form a California nonprofit public benefit corporation and pursue 501(c)(3
 - DONE: Confirm domain availability and register. sidewalkstoriesla.org and .com registered at Namecheap.
 - NOW: File Articles of Incorporation (Form ARTS-NP) with CA Secretary of State ($30). See ARTS-NP-Draft.md for pre-filled form.
 - NEXT: Get EIN from IRS (select Other nonprofit organization). Use online EIN assistant at irs.gov.
-- NEXT: Draft bylaws (board of at least 3 directors). Trevor + Jason (if he confirms) + one independent director.
-- NEXT: Recruit founding board. If Jason declines, find an independent director (arts educator, nonprofit lawyer, or community organizer).
+- DONE: Draft bylaws (board of at least 3 directors). Saved as Bylaws-Template.md; ready for signature once directors are confirmed.
+- NEXT: Recruit founding board. If Jason confirms, he is Director #2. If not, find an independent director (arts educator, nonprofit lawyer, or community organizer) as Director #2. Trevor is Director #1 and Board President.
 - NEXT: File Statement of Information (Form SI-100) within 90 days ($20).
 - NEXT: Apply for 501(c)(3) status (Form 1023-EZ if eligible, $275; or full Form 1023, $600).
 - NEXT: Open nonprofit bank account (bring Articles, EIN, bylaws, board resolution).
@@ -68,8 +68,10 @@ Goal: identify and rank 15 to 20 grant prospects aligned with youth arts, public
 - DONE: Build a grant calendar with deadlines and requirements for Tier 1 funders (Grant-Calendar.md).
 - DONE: Full grant proposal template created (narrative, budget, outcomes, evaluation plan, attachments checklist). Saved as Grant-Proposal-Template.md and PDF.
 - DONE: Sponsorship pitch for local businesses created ($750 per panel, logo on mosaic, social content). Saved as Sponsorship-Pitch.md and PDF.
-- NEXT: Customize grant proposal for first 3 Tier 1 funders and submit.
-- NEXT: Evaluate fiscal sponsor options (existing LA nonprofits with youth arts or public safety programs that could house Sidewalk Stories LA for Year 1).
+- DONE: Draft fiscal sponsor outreach emails for Community Partners and Arts for LA. Saved to Outlook drafts; ready to send.
+- DONE: Draft Awesome Foundation LA application ($1,000, no 501(c)(3) required). Saved to Outlook draft; ready to send.
+- NEXT: Customize grant proposal for first 3 Tier 1 funders and submit (CCF, LA County Arts, DCA).
+- NEXT: Evaluate fiscal sponsor options after Community Partners and Arts for LA respond.
 
 ## Track F — Digital Presence (NOW)
 Goal: build the online footprint so funders, sponsors, and residents can find and verify the organization.
