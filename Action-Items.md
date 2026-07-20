@@ -12,7 +12,7 @@ Goal: bring Jason in as founding tech partner and confirm app licensing.
 
 - DONE: Concept documents drafted (Grant Concept and Jason Concept).
 - DONE: Financial model built (v1, needs revision).
-- NOW: Send intro email to Jason Clement (draft in Email-to-Jason-Clement.md).
+- DONE: Outlook HTML draft created with attachments (One-Page-Funder-Prospectus.pdf, Financial Model PDF, Partnership-Outline-for-Jason.pdf). Review draft in Outlook before sending.
 - NEXT: Prep call materials: financial model, Grant Concept, Partnership Outline with three role options.
 - NEXT: On the call, lock in: app IP ownership, licensing or rebuild decision, his title and governance role, sweat equity or board seat.
 - HOLD: Do not file entity or bylaws until Jason confirms his role and IP terms.
@@ -60,8 +60,9 @@ Goal: identify and rank 15 to 20 grant prospects aligned with youth arts, public
 
 - NOW: Build a grant prospect shortlist (see Grant-Prospect-Shortlist.md to be created).
 - NOW: Draft a one page executive summary for funders.
-- NEXT: Convert the Grant Concept into a full proposal template (narrative, budget, outcomes, evaluation plan).
-- NEXT: Build a sponsorship pitch for local businesses ($750 per panel, logo on mosaic, social content).
+- DONE: Full grant proposal template created (narrative, budget, outcomes, evaluation plan, attachments checklist). Saved as Grant-Proposal-Template.md and PDF.
+- DONE: Sponsorship pitch for local businesses created ($750 per panel, logo on mosaic, social content). Saved as Sponsorship-Pitch.md and PDF.
+- NEXT: Customize grant proposal for first 3 Tier 1 funders and submit.
 - NEXT: Evaluate fiscal sponsor options (existing LA nonprofits with youth arts or public safety programs that could house Sidewalk Stories LA for Year 1).
 
 ## Track F — Digital Presence (NOW)
