@@ -82,7 +82,7 @@ Goal: build the online footprint so funders, sponsors, and residents can find an
 
 - DONE: Register sidewalkstoriesla.org and sidewalkstoriesla.com at Namecheap (~$24/year).
 - DONE: Set up Google Workspace Business Starter ($6/month for 1 user, trevor@sidewalkstoriesla.org).
-- DONE: Build full multi-page website: index.html (landing), about.html, program.html, contact.html (with donate form), 404.html. Includes responsive CSS, interactive before/after slider, animated stat counters, mobile nav, scroll animations.
+- DONE: Build full multi-page website: index.html (landing), about.html, program.html, contact.html (with donate form), 404.html, faq.html, volunteer.html, stories.html, press-kit.html. Includes responsive CSS, interactive before/after slider, animated stat counters, mobile nav, scroll animations, FAQ accordion, volunteer signup form, progress tracker.
 - DONE: Create GitHub repo (CLSCRE/sidewalk-stories-la) and configure GitHub Pages auto-deployment via Actions workflow.
 - DONE: Configure custom domain (sidewalkstoriesla.org) on GitHub Pages. CNAME file added.
 - DONE: Add real stock photography (cracked-pavement.jpg, mosaic-tiles.jpg, kids-art.jpg, artist-working.jpg) to replace placeholders across all pages. Images pushed to GitHub and live on site.
@@ -90,9 +90,14 @@ Goal: build the online footprint so funders, sponsors, and residents can find an
 - DONE: Create Instagram content strategy with 8 caption templates, hashtag strategy, and 10-post launch schedule. Saved as Instagram-Content-Strategy.md.
 - DONE: Draft Trevor LinkedIn founder summary, headline options, experience entry, and 5 post templates. Saved as Trevor-LinkedIn-Founder-Summary.md.
 - DONE: Create professional HTML email signature for trevor@sidewalkstoriesla.org. Saved as Email-Signature.html.
-- NEXT: Create Instagram and Facebook accounts (visual platforms suit public art best).
+- DONE: Create Instagram account setup guide with bio, 10 pre-written posts, hashtag strategy, story templates, and metrics tracker. Saved as Instagram-Account-Setup-Guide.md.
+- DONE: Create Facebook Page setup guide with page config, 5 posts, automated messenger greeting. Saved as Facebook-Page-Setup-Guide.md.
+- NEXT: Create Instagram account using the setup guide.
+- NEXT: Create Facebook Page using the setup guide.
+- DONE: Draft Trevor LinkedIn founder summary and 5 post templates. Saved as Trevor-LinkedIn-Founder-Summary.md.
 - NEXT: Create LinkedIn presence for Trevor as Founder.
-- NEXT: Set up Google Business Profile for local search.
+- DONE: Create Google Business Profile setup document with pre-filled description, services, products, Q&A, photos, and weekly post templates. Saved as Google-Business-Profile-Setup.md.
+- NEXT: Set up Google Business Profile using the setup guide.
 - NEXT: Produce before/after content template for pilot panel storytelling.
 - NEXT: Set up a simple donation page (Stripe, PayPal, or through fiscal sponsor).
 - NEXT: Replace stock photos with actual pilot panel photography once first panels are complete.
