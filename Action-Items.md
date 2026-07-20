@@ -21,9 +21,9 @@ Goal: bring Jason in as founding tech partner and confirm app licensing.
 Goal: fix the $121K Year 1 loss so the nonprofit is fundable.
 
 - DONE: v1 assumptions and proforma built.
-- NOW: Build a pilot scenario (6 to 12 panels Year 1, not 48) with matching revenue.
-- NOW: Model three grant scenarios: small community arts grant ($5K to $15K), medium youth development grant ($25K to $50K), and a major LA-area foundation grant ($75K to $150K).
-- NOW: Add corporate sponsor pipeline (local business per panel at $750 each).
+- DONE: Build a pilot scenario (10 panels Year 1, $38,700 budget) with matching revenue. Documented in One-Page-Funder-Prospectus.md.
+- DONE: Model three grant scenarios: small ($5K community arts), medium ($10K youth development), major ($15K+ LA foundation). Documented in One-Page-Funder-Prospectus.md and Grant-Calendar.md.
+- DONE: Add corporate sponsor pipeline ($750 per panel, logo on mosaic). Documented in Sponsorship-Pitch.md and One-Page-Funder-Prospectus.md.
 - NEXT: Build a 12-month cash flow with realistic donation ramp and grant timelines.
 - NEXT: Model a fiscal sponsor scenario where overhead is shared and Year 1 burn drops significantly.
 
@@ -60,8 +60,9 @@ Goal: confirm the actual pathway to legally repair and mosaic a public sidewalk 
 ## Track E — Funding and Grant Pipeline (Trevor)
 Goal: identify and rank 15 to 20 grant prospects aligned with youth arts, public safety, and LA civic improvement.
 
-- NOW: Build a grant prospect shortlist (see Grant-Prospect-Shortlist.md to be created).
-- NOW: Draft a one page executive summary for funders.
+- DONE: Build a grant prospect shortlist with 20 funders across 4 tiers (Grant-Prospect-Shortlist.md).
+- DONE: Draft a one-page executive summary for funders (One-Page-Funder-Prospectus.md and PDF).
+- DONE: Build a grant calendar with deadlines and requirements for Tier 1 funders (Grant-Calendar.md).
 - DONE: Full grant proposal template created (narrative, budget, outcomes, evaluation plan, attachments checklist). Saved as Grant-Proposal-Template.md and PDF.
 - DONE: Sponsorship pitch for local businesses created ($750 per panel, logo on mosaic, social content). Saved as Sponsorship-Pitch.md and PDF.
 - NEXT: Customize grant proposal for first 3 Tier 1 funders and submit.
@@ -75,13 +76,14 @@ Goal: build the online footprint so funders, sponsors, and residents can find an
 - DONE: Build full multi-page website: index.html (landing), about.html, program.html, contact.html (with donate form), 404.html. Includes responsive CSS, interactive before/after slider, animated stat counters, mobile nav, scroll animations.
 - DONE: Create GitHub repo (CLSCRE/sidewalk-stories-la) and configure GitHub Pages auto-deployment via Actions workflow.
 - DONE: Configure custom domain (sidewalkstoriesla.org) on GitHub Pages. CNAME file added.
+- DONE: Add real stock photography (cracked-pavement.jpg, mosaic-tiles.jpg, kids-art.jpg, artist-working.jpg) to replace placeholders across all pages. Images pushed to GitHub and live on site.
 - NOW: Add DNS A records at domain registrar pointing to GitHub Pages IPs (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153).
 - NEXT: Create Instagram and Facebook accounts (visual platforms suit public art best).
 - NEXT: Create LinkedIn presence for Trevor as Founder.
 - NEXT: Set up Google Business Profile for local search.
 - NEXT: Produce before/after content template for pilot panel storytelling.
 - NEXT: Set up a simple donation page (Stripe, PayPal, or through fiscal sponsor).
-- NEXT: Add actual photography to replace placeholders once pilot panels are complete.
+- NEXT: Replace stock photos with actual pilot panel photography once first panels are complete.
 
 ## Track G — Program Operations (NEXT)
 Goal: design the actual workflow from resident submission to finished mosaic.
