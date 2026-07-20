@@ -43,6 +43,10 @@ Goal: form a California nonprofit public benefit corporation and pursue 501(c)(3
 - NEXT: Recruit founding board. If Jason confirms, he is Director #2. If not, find an independent director (arts educator, nonprofit lawyer, or community organizer) as Director #2. Trevor is Director #1 and Board President.
 - NEXT: File Statement of Information (Form SI-100) within 90 days ($20).
 - NEXT: Apply for 501(c)(3) status (Form 1023-EZ if eligible, $275; or full Form 1023, $600).
+- DONE: Draft board resolution for bank account opening. Saved as Board-Resolution-Bank-Account.md.
+- DONE: Draft conflict of interest policy. Saved as Conflict-of-Interest-Policy.md.
+- DONE: Draft organizational meeting minutes template. Saved as Organizational-Meeting-Minutes-Template.md.
+- DONE: Draft Form 1023-EZ eligibility checklist. Verdict: Sidewalk Stories LA is likely eligible for the simplified $275 application. Saved as Form-1023-EZ-Eligibility-Checklist.md.
 - NEXT: Open nonprofit bank account (bring Articles, EIN, bylaws, board resolution).
 - NEXT: Apply for CA tax exemption with FTB.
 - NEXT: Budget $800 annual CA franchise tax.
@@ -83,6 +87,9 @@ Goal: build the online footprint so funders, sponsors, and residents can find an
 - DONE: Configure custom domain (sidewalkstoriesla.org) on GitHub Pages. CNAME file added.
 - DONE: Add real stock photography (cracked-pavement.jpg, mosaic-tiles.jpg, kids-art.jpg, artist-working.jpg) to replace placeholders across all pages. Images pushed to GitHub and live on site.
 - NOW: Add DNS A records at domain registrar pointing to GitHub Pages IPs (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153).
+- DONE: Create Instagram content strategy with 8 caption templates, hashtag strategy, and 10-post launch schedule. Saved as Instagram-Content-Strategy.md.
+- DONE: Draft Trevor LinkedIn founder summary, headline options, experience entry, and 5 post templates. Saved as Trevor-LinkedIn-Founder-Summary.md.
+- DONE: Create professional HTML email signature for trevor@sidewalkstoriesla.org. Saved as Email-Signature.html.
 - NEXT: Create Instagram and Facebook accounts (visual platforms suit public art best).
 - NEXT: Create LinkedIn presence for Trevor as Founder.
 - NEXT: Set up Google Business Profile for local search.
@@ -93,6 +100,10 @@ Goal: build the online footprint so funders, sponsors, and residents can find an
 ## Track G — Program Operations (NEXT)
 Goal: design the actual workflow from resident submission to finished mosaic.
 
+- DONE: Draft youth participant liability waiver. Saved as Youth-Liability-Waiver.md.
+- DONE: Draft photo/video release form for participants, property owners, and sponsors. Saved as Photo-Video-Release-Form.md.
+- DONE: Draft panel sponsor agreement template ($750). Saved as Sponsor-Agreement-Template.md.
+- DONE: Draft donor thank-you letter templates (3 versions: personal friend, professional contact, recurring donor). Saved as Donor-Thank-You-Letter-Template.md.
 - NEXT: Design the app user flow: photo upload, geolocation, voting, winner notification.
 - NEXT: Confirm concrete crew network (licensed, insured, experienced with city permits).
 - NEXT: Design youth recruitment process (partner with schools, community centers, or Jewish community programs as referenced in the concept).
