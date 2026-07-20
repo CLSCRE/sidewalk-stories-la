@@ -1,4 +1,4 @@
-# Sidewalk Stories LA — Bylaws of a California Nonprofit Public Benefit Corporation
+content = """# Sidewalk Stories LA â€” Bylaws of a California Nonprofit Public Benefit Corporation
 
 _Adopted: [Date]_
 _Amended: [Date, if applicable]_
@@ -140,3 +140,8 @@ _________________________
 Trevor Damyan
 Board President
 Date: ___________
+"""
+
+with open('C:/Users/tdamy/OneDrive - CLS CRE/CLS CRE/Brokerage/AI - LLMs/Claude Code/Projects Marketplace/Sidewalk Art/Bylaws-Template.md', 'w') as f:
+    f.write(content)
+print('Bylaws template created.')
