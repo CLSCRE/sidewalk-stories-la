@@ -3,7 +3,12 @@
 _Updated 2026-07-20. Status keys: DONE, NOW (ready to act), NEXT (queued), HOLD (gated)._ 
 
 ## The Gate
-Nothing scales until two things clear: (1) Jason confirms partnership interest and tech role, and (2) the Year 1 financial model is credible enough to survive a grant officer review.
+Trevor has decided to proceed with legal formation regardless of Jason's response. The Year 1 financial model is now credible ($38,700 budget, $25,250 revenue, $13,450 founder bridge). Jason remains a priority outreach but is no longer a blocker for incorporation.
+
+**Updated priority order:**
+1. File CA nonprofit Articles and secure EIN (unlocks grant eligibility and bank account).
+2. Secure fiscal sponsor or fast-track 501(c)(3) application.
+3. Continue Jason outreach in parallel (email sent, awaiting response).
 
 ---
 
@@ -12,10 +17,10 @@ Goal: bring Jason in as founding tech partner and confirm app licensing.
 
 - DONE: Concept documents drafted (Grant Concept and Jason Concept).
 - DONE: Financial model built (v1, needs revision).
-- DONE: Outlook HTML draft created with attachments (One-Page-Funder-Prospectus.pdf, Financial Model PDF, Partnership-Outline-for-Jason.pdf). Review draft in Outlook before sending.
-- NEXT: Prep call materials: financial model, Grant Concept, Partnership Outline with three role options.
-- NEXT: On the call, lock in: app IP ownership, licensing or rebuild decision, his title and governance role, sweat equity or board seat.
-- HOLD: Do not file entity or bylaws until Jason confirms his role and IP terms.
+- DONE: Outlook HTML draft created with attachments (One-Page-Funder-Prospectus.pdf, Financial Model PDF, Partnership-Outline-for-Jason.pdf).
+- DONE: Email sent 2026-07-20 from Trevor's Gmail (pivoted from call to email outreach per Trevor's preference).
+- NEXT: If no response within 10 business days, send a brief follow up.
+- NEXT: If Jason responds positively, schedule a call to lock in: app IP ownership, licensing or rebuild decision, his title and governance role.
 
 ## Track B — Financial Model Repair (Trevor + Claude)
 Goal: fix the $121K Year 1 loss so the nonprofit is fundable.
@@ -24,22 +29,22 @@ Goal: fix the $121K Year 1 loss so the nonprofit is fundable.
 - DONE: Build a pilot scenario (10 panels Year 1, $38,700 budget) with matching revenue. Documented in One-Page-Funder-Prospectus.md.
 - DONE: Model three grant scenarios: small ($5K community arts), medium ($10K youth development), major ($15K+ LA foundation). Documented in One-Page-Funder-Prospectus.md and Grant-Calendar.md.
 - DONE: Add corporate sponsor pipeline ($750 per panel, logo on mosaic). Documented in Sponsorship-Pitch.md and One-Page-Funder-Prospectus.md.
-- NEXT: Build a 12-month cash flow with realistic donation ramp and grant timelines.
-- NEXT: Model a fiscal sponsor scenario where overhead is shared and Year 1 burn drops significantly.
+- DONE: Build a 12-month cash flow with realistic donation ramp and grant timelines. Saved as 12-Month-Cash-Flow.md. Key finding: $18,500 bridge needed by Month 9; crunch window is Months 7-9.
+- DONE: Model a fiscal sponsor scenario where overhead is shared and Year 1 burn drops significantly. Saved as Fiscal-Sponsor-Scenario.md. Key finding: saves $3,930 in Year 1; recommended options are Community Partners and Arts for LA.
 
-## Track C — Legal Formation (HOLD until Jason confirms)
+## Track C — Legal Formation (NOW)
 Goal: form a California nonprofit public benefit corporation and pursue 501(c)(3).
 
-- HOLD: Confirm entity name and DBA. Working name: Sidewalk Stories LA.
-- HOLD: Confirm domain availability and register.
-- HOLD: File Articles of Incorporation (Form ARTS-NP) with CA Secretary of State ($30).
-- HOLD: Get EIN from IRS (select Other nonprofit organization).
-- HOLD: Draft bylaws (board of at least 3 directors).
-- HOLD: Recruit founding board (Trevor + Jason + one independent director).
-- HOLD: File Statement of Information (Form SI-100) within 90 days ($20).
-- HOLD: Apply for 501(c)(3) status (Form 1023-EZ if eligible, $275; or full Form 1023, $600).
-- HOLD: Open nonprofit bank account (bring Articles, EIN, bylaws, board resolution).
-- HOLD: Apply for CA tax exemption with FTB.
+- NOW: Confirm entity name and DBA. Working name: Sidewalk Stories LA. Verify at bizfileonline.sos.ca.gov.
+- DONE: Confirm domain availability and register. sidewalkstoriesla.org and .com registered at Namecheap.
+- NOW: File Articles of Incorporation (Form ARTS-NP) with CA Secretary of State ($30). See ARTS-NP-Draft.md for pre-filled form.
+- NEXT: Get EIN from IRS (select Other nonprofit organization). Use online EIN assistant at irs.gov.
+- NEXT: Draft bylaws (board of at least 3 directors). Trevor + Jason (if he confirms) + one independent director.
+- NEXT: Recruit founding board. If Jason declines, find an independent director (arts educator, nonprofit lawyer, or community organizer).
+- NEXT: File Statement of Information (Form SI-100) within 90 days ($20).
+- NEXT: Apply for 501(c)(3) status (Form 1023-EZ if eligible, $275; or full Form 1023, $600).
+- NEXT: Open nonprofit bank account (bring Articles, EIN, bylaws, board resolution).
+- NEXT: Apply for CA tax exemption with FTB.
 - NEXT: Budget $800 annual CA franchise tax.
 - NEXT: Obtain general liability + youth program insurance quotes.
 
@@ -47,11 +52,9 @@ Goal: form a California nonprofit public benefit corporation and pursue 501(c)(3
 Goal: confirm the actual pathway to legally repair and mosaic a public sidewalk panel.
 
 - DONE: Contact directory created with verified emails for BOE, StreetsLA, DCA, Safe Sidewalks LA, and Mid-City West Neighborhood Council. See City-Contact-Directory.md.
-- DONE: Outlook email draft created for sidewalks@lacity.org (BOE / Safe Sidewalks LA rebate program and right-of-way permits).
-- DONE: Outlook email draft created for dca.review@lacity.org (public art review process for sidewalk mosaics).
-- DONE: Outlook email draft created for outreach@midcitywest.org (community improvement grant inquiry).
-- NOW: Review and send the three city outreach emails from Outlook drafts.
-- NEXT: Confirm liability requirements when minors work on public right of way (pending city response).
+- DONE: Outlook email drafts created for all three city contacts.
+- DONE: Trevor sent all three emails from Gmail on 2026-07-20 with CJ cc'd. Recipients: sidewalks@lacity.org, dca.review@lacity.org, outreach@midcitywest.org.
+- NEXT: Confirm liability requirements when minors work on public right of way (pending city response). Follow up if no reply within 10 business days.
 - DONE: Pilot neighborhood selected: Trevor's neighborhood (Fairfax / Mid-City West area, near Blackburn Ave and Melrose). Trevor's address: 7951 Blackburn Ave.
 - NEXT: Identify specific damaged sidewalk panels in Trevor's neighborhood to photograph for the app pilot.
 - NEXT: Identify one willing property owner adjacent to the pilot panel.
