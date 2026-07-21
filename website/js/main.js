@@ -25,21 +25,25 @@ document.addEventListener('DOMContentLoaded', function() {
     handleScroll(); // Check on load
 
     // Mobile navigation toggle
+    function setMenuOpen(isOpen) {
+        navMenu.classList.toggle('active', isOpen);
+        navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+
+        const spans = navToggle.querySelectorAll('span');
+        if (isOpen) {
+            spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
+            spans[1].style.opacity = '0';
+            spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
+        } else {
+            spans[0].style.transform = 'none';
+            spans[1].style.opacity = '1';
+            spans[2].style.transform = 'none';
+        }
+    }
+
     if (navToggle) {
         navToggle.addEventListener('click', function() {
-            navMenu.classList.toggle('active');
-
-            // Animate hamburger to X
-            const spans = navToggle.querySelectorAll('span');
-            if (navMenu.classList.contains('active')) {
-                spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
-                spans[1].style.opacity = '0';
-                spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
-            } else {
-                spans[0].style.transform = 'none';
-                spans[1].style.opacity = '1';
-                spans[2].style.transform = 'none';
-            }
+            setMenuOpen(!navMenu.classList.contains('active'));
         });
     }
 
@@ -47,11 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
     navLinks.forEach(function(link) {
         link.addEventListener('click', function() {
             if (navMenu.classList.contains('active')) {
-                navMenu.classList.remove('active');
-                const spans = navToggle.querySelectorAll('span');
-                spans[0].style.transform = 'none';
-                spans[1].style.opacity = '1';
-                spans[2].style.transform = 'none';
+                setMenuOpen(false);
             }
         });
     });
@@ -61,19 +61,17 @@ document.addEventListener('DOMContentLoaded', function() {
         if (navMenu.classList.contains('active') &&
             !navMenu.contains(e.target) &&
             !navToggle.contains(e.target)) {
-            navMenu.classList.remove('active');
-            const spans = navToggle.querySelectorAll('span');
-            spans[0].style.transform = 'none';
-            spans[1].style.opacity = '1';
-            spans[2].style.transform = 'none';
+            setMenuOpen(false);
         }
     });
 
-    // Donation button feedback
+    // Donation button feedback and selection state
     donateButtons.forEach(function(btn) {
         btn.addEventListener('click', function(e) {
             e.preventDefault();
-            const amount = btn.textContent.split('\n')[0];
+            donateButtons.forEach(function(b) { b.setAttribute('aria-pressed', 'false'); });
+            btn.setAttribute('aria-pressed', 'true');
+            const amount = btn.getAttribute('data-amount') || btn.textContent.split('\n')[0];
             alert('Thank you for your interest in donating ' + amount + '!\n\nWe are setting up our donation processor. Please email trevor@sidewalkstoriesla.org with your preferred amount and we will send you a secure payment link.');
         });
     });

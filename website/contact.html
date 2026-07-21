@@ -12,9 +12,34 @@
     <meta property="og:image" content="https://sidewalkstoriesla.org/images/og-image.jpg">
     <meta property="og:site_name" content="Sidewalk Stories LA">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Get Involved | Sidewalk Stories LA">
+    <meta name="twitter:description" content="Donate $25 or sponsor a full panel for $750. Help us launch the first 10 mosaic sidewalk panels in the Fairfax / Mid-City West neighborhood.">
+    <meta name="twitter:image" content="https://sidewalkstoriesla.org/images/og-image.jpg">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://sidewalkstoriesla.org/contact.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Sidewalk Stories LA",
+  "url": "https://sidewalkstoriesla.org/",
+  "logo": "https://sidewalkstoriesla.org/images/og-image.jpg",
+  "email": "trevor@sidewalkstoriesla.org",
+  "description": "Sidewalk Stories LA repairs broken sidewalk panels and transforms them into community-built mosaics designed by local youth and teaching artists.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://www.instagram.com/sidewalkstoriesla",
+    "https://www.facebook.com/sidewalkstoriesla"
+  ]
+}
+</script>
 </head>
 <body>
     <!-- Navigation -->
@@ -24,12 +49,12 @@
                 <span class="logo-icon"></span>
                 Sidewalk Stories LA
             </a>
-            <button class="nav-toggle" aria-label="Toggle navigation">
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="nav-menu">
                 <li><a href="about.html">About</a></li>
                 <li><a href="program.html">Our Program</a></li>
                 <li><a href="contact.html" class="active">Get Involved</a></li>
@@ -182,7 +207,7 @@
                         </div>
                         <div>
                             <h4>Instagram</h4>
-                            <p><a href="#">@sidewalkstoriesla</a> (coming soon)</p>
+                            <p><a aria-disabled="true" tabindex="-1">@sidewalkstoriesla (coming soon)</a></p>
                         </div>
                     </div>
 
@@ -194,7 +219,7 @@
                         </div>
                         <div>
                             <h4>Facebook</h4>
-                            <p><a href="#">Sidewalk Stories LA</a> (coming soon)</p>
+                            <p><a aria-disabled="true" tabindex="-1">Sidewalk Stories LA (coming soon)</a></p>
                         </div>
                     </div>
 
@@ -207,7 +232,7 @@
                         </div>
                         <div>
                             <h4>Google Business Profile</h4>
-                            <p><a href="#">Find us on Google</a> (coming soon)</p>
+                            <p><a aria-disabled="true" tabindex="-1">Find us on Google (coming soon)</a></p>
                         </div>
                     </div>
                 </div>
@@ -226,16 +251,17 @@
             </div>
 
             <div class="donate-card">
-                <h2>Choose Your Impact</h2>
+                <h3>Choose Your Impact</h3>
                 <p>Select an amount below. We are working on setting up our donation processor. For now, email us and we will send you a secure payment link.</p>
-                <div class="donate-amounts">
-                    <button class="donate-btn">$25<br><span style="font-size: 0.8rem; font-weight: 400;">Buys tile</span></button>
-                    <button class="donate-btn">$100<br><span style="font-size: 0.8rem; font-weight: 400;">Artist stipend</span></button>
-                    <button class="donate-btn">$400<br><span style="font-size: 0.8rem; font-weight: 400;">One permit</span></button>
-                    <button class="donate-btn">$750</br><span style="font-size: 0.8rem; font-weight: 400;">Sponsor a panel</span></button>
-                    <button class="donate-btn">$2,700<br><span style="font-size: 0.8rem; font-weight: 400;">Full panel</span></button>
-                </div>
-                <p style="font-size: 0.95rem; opacity: 0.9;">Or email <a href="mailto:trevor@sidewalkstoriesla.org" style="color: var(--color-white); text-decoration: underline;">trevor@sidewalkstoriesla.org</a> with your preferred amount.</p>
+                <fieldset class="donate-amounts" aria-describedby="donate-processor-note">
+                    <legend class="visually-hidden">Donation amount</legend>
+                    <button class="donate-btn" type="button" aria-pressed="false" data-amount="$25">$25<br><span style="font-size: 0.8rem; font-weight: 400;">Buys tile</span></button>
+                    <button class="donate-btn" type="button" aria-pressed="false" data-amount="$100">$100<br><span style="font-size: 0.8rem; font-weight: 400;">Artist stipend</span></button>
+                    <button class="donate-btn" type="button" aria-pressed="false" data-amount="$400">$400<br><span style="font-size: 0.8rem; font-weight: 400;">One permit</span></button>
+                    <button class="donate-btn" type="button" aria-pressed="false" data-amount="$750">$750<br><span style="font-size: 0.8rem; font-weight: 400;">Sponsor a panel</span></button>
+                    <button class="donate-btn" type="button" aria-pressed="false" data-amount="$2,700">$2,700<br><span style="font-size: 0.8rem; font-weight: 400;">Full panel</span></button>
+                </fieldset>
+                <p id="donate-processor-note" style="font-size: 0.95rem; opacity: 0.9;">Or email <a href="mailto:trevor@sidewalkstoriesla.org" style="color: var(--color-white); text-decoration: underline;">trevor@sidewalkstoriesla.org</a> with your preferred amount.</p>
             </div>
 
             <!-- Sponsorship Levels -->
@@ -275,7 +301,8 @@
                 <h2>Stay in the Loop</h2>
                 <p>We will email you when the first panel is complete, when voting opens, and when we expand to new neighborhoods.</p>
                 <form action="#" method="POST" style="max-width: 500px; margin: 0 auto; display: flex; gap: 12px; flex-wrap: wrap;">
-                    <input type="email" placeholder="Enter your email" required style="flex: 1; padding: 16px; border-radius: var(--radius); border: none; font-family: var(--font-body); font-size: 1rem; min-width: 200px;">
+                    <label for="newsletter-email" class="visually-hidden">Email address for newsletter</label>
+                    <input type="email" id="newsletter-email" name="email" placeholder="Enter your email" required style="flex: 1; padding: 16px; border-radius: var(--radius); border: none; font-family: var(--font-body); font-size: 1rem; min-width: 200px;">
                     <button type="submit" class="btn btn-primary" style="white-space: nowrap;">Subscribe</button>
                 </form>
             </div>
@@ -293,19 +320,19 @@
                     </a>
                     <p>Repairing broken sidewalks. Building community. One mosaic at a time.</p>
                     <div class="footer-social">
-                        <a href="#" class="social-icon" aria-label="Instagram">
+                        <a class="social-icon" aria-label="Instagram (coming soon)" aria-disabled="true" tabindex="-1">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                             </svg>
                         </a>
-                        <a href="#" class="social-icon" aria-label="Facebook">
+                        <a class="social-icon" aria-label="Facebook (coming soon)" aria-disabled="true" tabindex="-1">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                             </svg>
                         </a>
-                        <a href="#" class="social-icon" aria-label="Google Business Profile">
+                        <a class="social-icon" aria-label="Google Business Profile (coming soon)" aria-disabled="true" tabindex="-1">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <path d="M12 6v6l4 2"></path>
@@ -329,9 +356,9 @@
                     <h4>Connect</h4>
                     <ul>
                         <li><a href="mailto:trevor@sidewalkstoriesla.org">trevor@sidewalkstoriesla.org</a></li>
-                        <li><a href="#">Instagram (@sidewalkstoriesla)</a></li>
-                        <li><a href="#">Facebook Page</a></li>
-                        <li><a href="#">Google Business Profile</a></li>
+                        <li><a aria-disabled="true" tabindex="-1">Instagram (@sidewalkstoriesla) (coming soon)</a></li>
+                        <li><a aria-disabled="true" tabindex="-1">Facebook Page (coming soon)</a></li>
+                        <li><a aria-disabled="true" tabindex="-1">Google Business Profile (coming soon)</a></li>
                         <li><a href="photo-credits.html">Photo Credits</a></li>
                     </ul>
                 </div>

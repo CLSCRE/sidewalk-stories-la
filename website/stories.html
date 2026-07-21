@@ -12,6 +12,9 @@
     <meta property="og:image" content="https://sidewalkstoriesla.org/images/og-image.jpg">
     <meta property="og:site_name" content="Sidewalk Stories LA">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Stories | Sidewalk Stories LA">
+    <meta name="twitter:description" content="Every panel has a story. Follow our pilot program from first photo to finished mosaic.">
+    <meta name="twitter:image" content="https://sidewalkstoriesla.org/images/og-image.jpg">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
@@ -113,6 +116,28 @@
             .progress-stats { flex-direction: column; gap: 16px; }
         }
     </style>
+    <link rel="canonical" href="https://sidewalkstoriesla.org/stories.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Sidewalk Stories LA",
+  "url": "https://sidewalkstoriesla.org/",
+  "logo": "https://sidewalkstoriesla.org/images/og-image.jpg",
+  "email": "trevor@sidewalkstoriesla.org",
+  "description": "Sidewalk Stories LA repairs broken sidewalk panels and transforms them into community-built mosaics designed by local youth and teaching artists.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://www.instagram.com/sidewalkstoriesla",
+    "https://www.facebook.com/sidewalkstoriesla"
+  ]
+}
+</script>
 </head>
 <body>
     <!-- Navigation -->
@@ -122,15 +147,16 @@
                 <span class="logo-icon"></span>
                 Sidewalk Stories LA
             </a>
-            <button class="nav-toggle" aria-label="Toggle navigation">
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="nav-menu">
                 <li><a href="about.html">About</a></li>
                 <li><a href="program.html">Our Program</a></li>
                 <li><a href="contact.html">Get Involved</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="contact.html#donate" class="btn btn-primary">Donate</a></li>
             </ul>
@@ -227,7 +253,8 @@
             </div>
             <div style="max-width: 500px; margin: 0 auto;">
                 <form action="#" method="post" style="display: flex; gap: 12px;">
-                    <input type="email" placeholder="Your email address" required style="flex: 1; padding: 12px 16px; border: 1px solid #e0e0e0; border-radius: 8px; font-family: 'Inter', sans-serif; font-size: 1rem;">
+                    <label for="stories-newsletter-email" class="visually-hidden">Email address for newsletter</label>
+                    <input type="email" id="stories-newsletter-email" name="email" placeholder="Your email address" required style="flex: 1; padding: 12px 16px; border: 1px solid #e0e0e0; border-radius: 8px; font-family: 'Inter', sans-serif; font-size: 1rem;">
                     <button type="submit" class="btn btn-primary" style="white-space: nowrap;">Subscribe</button>
                 </form>
                 <p style="text-align: center; margin-top: 16px; font-size: 0.85rem; color: var(--color-text-light);">No spam. Unsubscribe anytime.</p>
@@ -261,19 +288,19 @@
                     </a>
                     <p>Repairing broken sidewalks. Building community. One mosaic at a time.</p>
                     <div class="footer-social">
-                        <a href="#" class="social-icon" aria-label="Instagram">
+                        <a class="social-icon" aria-label="Instagram (coming soon)" aria-disabled="true" tabindex="-1">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                             </svg>
                         </a>
-                        <a href="#" class="social-icon" aria-label="Facebook">
+                        <a class="social-icon" aria-label="Facebook (coming soon)" aria-disabled="true" tabindex="-1">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                             </svg>
                         </a>
-                        <a href="#" class="social-icon" aria-label="Google Business Profile">
+                        <a class="social-icon" aria-label="Google Business Profile (coming soon)" aria-disabled="true" tabindex="-1">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <path d="M12 6v6l4 2"></path>
@@ -287,17 +314,19 @@
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="program.html">Our Program</a></li>
                         <li><a href="stories.html">Stories</a></li>
-                        <li><a href="press-kit.html">Press Kit</a></li>
+                        <li><a href="contact.html">Get Involved</a></li>
+                        <li><a href="volunteer.html">Volunteer</a></li>
                         <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="press-kit.html">Press Kit</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">
                     <h4>Connect</h4>
                     <ul>
                         <li><a href="mailto:trevor@sidewalkstoriesla.org">trevor@sidewalkstoriesla.org</a></li>
-                        <li><a href="#">Instagram (@sidewalkstoriesla)</a></li>
-                        <li><a href="#">Facebook Page</a></li>
-                        <li><a href="#">Google Business Profile</a></li>
+                        <li><a aria-disabled="true" tabindex="-1">Instagram (@sidewalkstoriesla) (coming soon)</a></li>
+                        <li><a aria-disabled="true" tabindex="-1">Facebook Page (coming soon)</a></li>
+                        <li><a aria-disabled="true" tabindex="-1">Google Business Profile (coming soon)</a></li>
                         <li><a href="photo-credits.html">Photo Credits</a></li>
                     </ul>
                 </div>
