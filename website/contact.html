@@ -139,7 +139,7 @@
 
             <div class="contact-grid">
                 <div class="contact-form-wrapper">
-                    <form action="#" method="POST">
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" placeholder="Your full name" required>
@@ -164,6 +164,8 @@
                             <label for="message">Message</label>
                             <textarea id="message" name="message" placeholder="Tell us more about how you would like to get involved..."></textarea>
                         </div>
+                        <input type="hidden" name="_subject" value="New contact form message - Sidewalk Stories LA">
+                        <input type="hidden" name="form-type" value="contact">
                         <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">Send Message</button>
                     </form>
                 </div>
@@ -252,7 +254,7 @@
 
             <div class="donate-card">
                 <h3>Choose Your Impact</h3>
-                <p>Select an amount below. We are working on setting up our donation processor. For now, email us and we will send you a secure payment link.</p>
+                <p>Select an amount below, donate through GoFundMe, or scan the QR code. Every dollar goes directly to concrete, tile, teaching artists, and permits.</p>
                 <fieldset class="donate-amounts" aria-describedby="donate-processor-note">
                     <legend class="visually-hidden">Donation amount</legend>
                     <button class="donate-btn" type="button" aria-pressed="false" data-amount="$25">$25<br><span style="font-size: 0.8rem; font-weight: 400;">Buys tile</span></button>
@@ -261,7 +263,16 @@
                     <button class="donate-btn" type="button" aria-pressed="false" data-amount="$750">$750<br><span style="font-size: 0.8rem; font-weight: 400;">Sponsor a panel</span></button>
                     <button class="donate-btn" type="button" aria-pressed="false" data-amount="$2,700">$2,700<br><span style="font-size: 0.8rem; font-weight: 400;">Full panel</span></button>
                 </fieldset>
-                <p id="donate-processor-note" style="font-size: 0.95rem; opacity: 0.9;">Or email <a href="mailto:trevor@sidewalkstoriesla.org" style="color: var(--color-white); text-decoration: underline;">trevor@sidewalkstoriesla.org</a> with your preferred amount.</p>
+
+                <div style="display: flex; align-items: center; gap: 32px; flex-wrap: wrap; justify-content: center; margin-top: 32px;">
+                    <a href="https://www.gofundme.com/YOUR_GOFUNDME_CAMPAIGN" target="_blank" rel="noopener" class="btn btn-outline-light btn-large" style="border-color: var(--color-white); color: var(--color-white);">Donate on GoFundMe</a>
+                    <div style="text-align: center;">
+                        <img src="images/donate-qr.png" alt="QR code to donate to Sidewalk Stories LA" style="width: 120px; height: 120px; background: white; padding: 8px; border-radius: 8px;">
+                        <p style="font-size: 0.85rem; margin-top: 8px;">Scan to donate</p>
+                    </div>
+                </div>
+
+                <p id="donate-processor-note" style="font-size: 0.95rem; opacity: 0.9; margin-top: 32px;">Prefer another method? Email <a href="mailto:trevor@sidewalkstoriesla.org" style="color: var(--color-white); text-decoration: underline;">trevor@sidewalkstoriesla.org</a> with your preferred amount.</p>
             </div>
 
             <!-- Sponsorship Levels -->
@@ -300,9 +311,11 @@
             <div class="cta-content">
                 <h2>Stay in the Loop</h2>
                 <p>We will email you when the first panel is complete, when voting opens, and when we expand to new neighborhoods.</p>
-                <form action="#" method="POST" style="max-width: 500px; margin: 0 auto; display: flex; gap: 12px; flex-wrap: wrap;">
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="max-width: 500px; margin: 0 auto; display: flex; gap: 12px; flex-wrap: wrap;">
                     <label for="newsletter-email" class="visually-hidden">Email address for newsletter</label>
                     <input type="email" id="newsletter-email" name="email" placeholder="Enter your email" required style="flex: 1; padding: 16px; border-radius: var(--radius); border: none; font-family: var(--font-body); font-size: 1rem; min-width: 200px;">
+                    <input type="hidden" name="_subject" value="New newsletter subscriber - Sidewalk Stories LA">
+                    <input type="hidden" name="form-type" value="newsletter">
                     <button type="submit" class="btn btn-primary" style="white-space: nowrap;">Subscribe</button>
                 </form>
             </div>

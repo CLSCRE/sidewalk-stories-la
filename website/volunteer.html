@@ -248,7 +248,7 @@
 
                 <div class="volunteer-form">
                     <h3>Volunteer Sign Up</h3>
-                    <form action="#" method="post" onsubmit="event.preventDefault(); alert('Thank you for signing up! We will contact you within 48 hours.');">
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
                         <div class="form-group">
                             <label for="vol-name">Full Name *</label>
                             <input type="text" id="vol-name" name="name" required>
@@ -284,6 +284,8 @@
                             <label for="vol-message">Why do you want to volunteer?</label>
                             <textarea id="vol-message" name="message" placeholder="Tell us a bit about yourself and why you are interested in Sidewalk Stories LA."></textarea>
                         </div>
+                        <input type="hidden" name="_subject" value="New volunteer application - Sidewalk Stories LA">
+                        <input type="hidden" name="form-type" value="volunteer">
                         <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Application</button>
                     </form>
                 </div>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report a Cracked Panel | Sidewalk Stories LA</title>
+    <meta name="description" content="Report a cracked or broken sidewalk panel in Los Angeles for the Sidewalk Stories LA community mosaic program.">
+    <meta property="og:title" content="Report a Cracked Panel | Sidewalk Stories LA">
+    <meta property="og:description" content="Know a broken sidewalk panel that could become a mosaic? Send us the location and a photo.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sidewalkstoriesla.org/report-panel.html">
+    <meta property="og:image" content="https://sidewalkstoriesla.org/images/og-image.jpg">
+    <meta property="og:site_name" content="Sidewalk Stories LA">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Report a Cracked Panel | Sidewalk Stories LA">
+    <meta name="twitter:description" content="Help us find the next sidewalk panel to repair and turn into community art.">
+    <meta name="twitter:image" content="https://sidewalkstoriesla.org/images/og-image.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://sidewalkstoriesla.org/report-panel.html">
+    <style>
+        .report-intro {
+            max-width: 700px;
+            margin: 0 auto 48px;
+            text-align: center;
+        }
+        .report-form {
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: var(--color-white);
+            border-radius: var(--radius);
+            padding: 48px;
+            box-shadow: var(--shadow-sm);
+        }
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+        @media (max-width: 600px) {
+            .form-row { grid-template-columns: 1fr; }
+            .report-form { padding: 28px; }
+        }
+        .file-input-wrapper {
+            border: 2px dashed #e0e0e0;
+            border-radius: var(--radius);
+            padding: 32px;
+            text-align: center;
+            transition: var(--transition);
+        }
+        .file-input-wrapper:hover, .file-input-wrapper:focus-within {
+            border-color: var(--color-accent);
+            background-color: #FFF8F0;
+        }
+        .file-input-wrapper input[type="file"] {
+            width: 100%;
+            cursor: pointer;
+        }
+    </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Sidewalk Stories LA",
+  "url": "https://sidewalkstoriesla.org/",
+  "logo": "https://sidewalkstoriesla.org/images/og-image.jpg",
+  "email": "trevor@sidewalkstoriesla.org",
+  "description": "Sidewalk Stories LA repairs broken sidewalk panels and transforms them into community-built mosaics designed by local youth and teaching artists.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Los Angeles",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://www.instagram.com/sidewalkstoriesla",
+    "https://www.facebook.com/sidewalkstoriesla"
+  ]
+}
+</script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"></span>
+                Sidewalk Stories LA
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="about.html">About</a></li>
+                <li><a href="program.html">Our Program</a></li>
+                <li><a href="contact.html">Get Involved</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html#donate" class="btn btn-primary">Donate</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <span class="section-label">Help Us Find Panels</span>
+            <h1>Report a Cracked Panel</h1>
+            <p class="report-intro">Know a broken sidewalk panel that could become a neighborhood mosaic? Share the location and a photo. We review every submission and follow up if it fits our pilot criteria.</p>
+        </div>
+    </header>
+
+    <!-- Report Form -->
+    <section class="content-section">
+        <div class="container">
+            <form class="report-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="reporter-name">Your Name</label>
+                        <input type="text" id="reporter-name" name="name" placeholder="Your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reporter-email">Your Email</label>
+                        <input type="email" id="reporter-email" name="email" placeholder="you@example.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="panel-address">Panel Address or Cross Streets</label>
+                    <input type="text" id="panel-address" name="address" placeholder="e.g. 7951 Blackburn Ave, near Melrose" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="panel-description">Describe the Damage</label>
+                    <textarea id="panel-description" name="damage" rows="3" placeholder="Cracked, lifted by tree roots, chipped, tripping hazard, etc." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="panel-photo">Upload a Photo</label>
+                    <div class="file-input-wrapper">
+                        <input type="file" id="panel-photo" name="photo" accept="image/*" aria-describedby="photo-help" required>
+                        <p id="photo-help" style="margin-top: 12px; font-size: 0.9rem; color: var(--color-text-light);">A clear photo helps us assess size, condition, and safety.</p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="panel-notes">Anything Else We Should Know?</label>
+                    <textarea id="panel-notes" name="notes" rows="2" placeholder="Accessibility concerns, property ownership details, nearby school or park..."></textarea>
+                </div>
+
+                <input type="hidden" name="_subject" value="New cracked panel report - Sidewalk Stories LA">
+                <input type="hidden" name="form-type" value="panel-report">
+
+                <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">Submit Panel Report</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon"></span>
+                        Sidewalk Stories LA
+                    </a>
+                    <p>Repairing broken sidewalks. Building community. One mosaic at a time.</p>
+                    <div class="footer-social">
+                        <a class="social-icon" aria-label="Instagram (coming soon)" aria-disabled="true" tabindex="-1">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a class="social-icon" aria-label="Facebook (coming soon)" aria-disabled="true" tabindex="-1">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a class="social-icon" aria-label="Google Business Profile (coming soon)" aria-disabled="true" tabindex="-1">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 6v6l4 2"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="program.html">Our Program</a></li>
+                        <li><a href="stories.html">Stories</a></li>
+                        <li><a href="contact.html">Get Involved</a></li>
+                        <li><a href="volunteer.html">Volunteer</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="press-kit.html">Press Kit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="mailto:trevor@sidewalkstoriesla.org">trevor@sidewalkstoriesla.org</a></li>
+                        <li><a aria-disabled="true" tabindex="-1">Instagram (@sidewalkstoriesla) (coming soon)</a></li>
+                        <li><a aria-disabled="true" tabindex="-1">Facebook Page (coming soon)</a></li>
+                        <li><a aria-disabled="true" tabindex="-1">Google Business Profile (coming soon)</a></li>
+                        <li><a href="photo-credits.html">Photo Credits</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sidewalk Stories LA. A California nonprofit public benefit corporation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
