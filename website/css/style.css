@@ -271,24 +271,12 @@ p {
 
 .logo-icon {
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
     margin-right: 10px;
-    background: linear-gradient(135deg, var(--color-mosaic-1), var(--color-mosaic-2), var(--color-mosaic-3));
-    border-radius: 6px;
-    position: relative;
-}
-
-.logo-icon::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 16px;
-    height: 16px;
-    background: var(--color-white);
-    border-radius: 2px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
 }
 
 .nav-menu {
