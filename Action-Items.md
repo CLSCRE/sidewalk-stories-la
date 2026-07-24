@@ -1,6 +1,6 @@
 # Sidewalk Stories LA — Action Items and Tracker
 
-_Updated 2026-07-20. Status keys: DONE, NOW (ready to act), NEXT (queued), HOLD (gated)._ 
+_Updated 2026-07-23. Status keys: DONE, NOW (ready to act), NEXT (queued), HOLD (gated)._ 
 
 ## The Gate
 Trevor has decided to proceed with legal formation regardless of Jason's response. The Year 1 financial model is now credible ($38,700 budget, $25,250 revenue, $13,450 founder bridge). Jason remains a priority outreach but is no longer a blocker for incorporation.
@@ -22,7 +22,7 @@ Goal: bring Jason in as founding tech partner and confirm app licensing.
 - DONE (2026-07-22 check-in): Jason replied twice same night. He said yes to talking about it with "Adam's team" since the old campaign tech stack is still up, but flagged a real legal risk to check first: fixing a single sidewalk panel can trigger California/ADA rules requiring adjacent curb ramp upgrades too, which raises the real per-panel cost. He also said "we built it for him, obviously the underlying tech is mine, but I think it's the decent thing to do" on the IP question, leaving open whose IP the app actually is.
 - NOW: Trevor already replied same night asking Jason directly "is this a product that they own?" (re: Adam's team) and said he'd look into the zoning issue himself. **Jason has not answered that IP-ownership question yet as of 2026-07-22.** This is now the open item, not a cold outreach waiting on a first response.
 - BROKEN (found 2026-07-22 via trevor@sidewalkstoriesla.org check-in): the separate "Sidewalk Stories LA update: website is live, nonprofit is forming" follow-up (sent 2026-07-20 from tdamyan@gmail.com, logged elsewhere in this file as DONE) was actually addressed to **jason.clement@example.com**, a placeholder address left over from the draft notes, not jason@getvisible.com. It never reached Jason. Needs to be resent to the correct address.
-- DONE (2026-07-23, final version): Corrected resend drafted (Gmail, trevor@sidewalkstoriesla.org, saved to Drafts, not sent) to jason@getvisible.com with the website update content, a nudge on the outstanding IP-ownership question, the branded HTML signature (logo + contact block), and links to both PDFs (hosted at sidewalkstoriesla.org/documents/ instead of true email attachments, since the drafting tool can't attach files directly). **Two earlier draft attempts for this same email are now superseded and sitting in Drafts, delete them**: one with no attachments/links and no signature, one that wrongly said "I have attached" without anything actually attached. Keep only the newest "Sidewalk Stories LA update" draft to Jason.
+- DONE (2026-07-23): Corrected resend drafted in Outlook to jason@getvisible.com with the website update, nudge on the outstanding IP-ownership question, branded HTML signature, and links to both PDFs hosted at sidewalkstoriesla.org/documents/. Awaiting Trevor approval before sending.
 - NEXT: Get the zoning/curb-ramp-trigger issue checked (city contact outreach in Track D partly covers this; may need a direct question to BOE or a construction-savvy contact).
 - NEXT: Once Jason answers the IP-ownership question, schedule the call to lock in: app IP terms, licensing vs. rebuild decision, his title and governance role.
 
@@ -66,8 +66,8 @@ Goal: confirm the actual pathway to legally repair and mosaic a public sidewalk 
   - **DCA (Mason Ng, mason.ng@lacity.org, replied 2026-07-21):** A mosaic on a public sidewalk panel most likely requires Cultural Affairs Commission review since it's in the public right-of-way. Fee is based on project valuation; a voluntary early review is free. Design/material/anti-slip requirements and right-of-way rules go through Bureau of Street Services (BSS) and Bureau of Engineering (BOE), not DCA. Contractor (not the artist) would need to carry the liability insurance; ask BSS/BOE. PWIAP (the city's 1%-for-arts fund) is tied to specific capital projects (e.g. a new rec center), not applicable here directly, but neighborhood council or City Council District sponsorship can help fast-track a project like this.
   - **Safe Sidewalks LA (sidewalks@lacity.org, replied 2026-07-22):** The Sidewalk Rebate Program requires ADA compliance property-line to property-line, and **the mosaic would not qualify under a regular A Permit** issued under that rebate program. Need to contact LA's Central District directly about the art installation itself, via a Customer Service Request (CSR) at dscsr.lacity.org.
   - **Mid-City West NC (Valerie Washburn, vwashburn@midcitywest.org, replied 2026-07-22):** MCWNC does offer Neighborhood Purpose Grants to 501(c)(3)s, but they're still finalizing the 2026-27 application process and deadlines; she'll follow up once set. Invited Trevor to give a 2-minute public comment intro at an upcoming Board or Executive Committee meeting (calendar/Zoom links at midcitywest.org/calendar).
-- DONE (2026-07-23, final versions with signature): Drafted replies (Gmail, trevor@sidewalkstoriesla.org, saved to Drafts, not sent) to all three city contacts, now with the branded HTML signature (logo + contact block): Mason Ng/DCA (asks how to request the free voluntary early review, will contact BSS/BOE directly, flags MCWNC support), Safe Sidewalks LA (confirms will file a CSR with Central District, notes separate standard concrete repair permit still needed), and Valerie Washburn/MCWNC (asks for the next meeting date for the 2-minute public comment intro). **Each of these three has one earlier, signature-less duplicate draft still sitting in Drafts, delete the older one for each recipient and keep only the newest.**
-- NEXT: Send the three drafted replies above once Trevor reviews them.
+- DONE (2026-07-23): Final reply drafts to all three city contacts created in Outlook with branded HTML signature: Mason Ng/DCA, Safe Sidewalks LA, and Valerie Washburn/MCWNC. Awaiting Trevor approval before sending.
+- NEXT: Send the three drafted replies once Trevor reviews them.
 - DONE (2026-07-23): CSR submitted to LA Central District via dscsr.lacity.org (Angeleno account). Request text from CSR-Request-Draft.md, Property/Job Address 7951 Blackburn Ave, Zip 90048. **Status: pending.** No confirmation number captured yet.
 - NEXT: Get the CSR confirmation/reference number once it comes through and log it here. Follow up if no response within 10 business days of 2026-07-23.
 - NEXT: Take DCA up on the free voluntary early review before committing further, given the "most likely requires Commission review" answer.
@@ -99,14 +99,14 @@ Goal: build the online footprint so funders, sponsors, and residents can find an
 - DONE: Register sidewalkstoriesla.org and sidewalkstoriesla.com at Namecheap (~$24/year).
 - DONE: Set up Google Workspace Business Starter ($6/month for 1 user, trevor@sidewalkstoriesla.org).
 - DONE: Build full multi-page website: index.html (landing), about.html, program.html, contact.html (with donate form), 404.html, faq.html, volunteer.html, stories.html, press-kit.html. Includes responsive CSS, interactive before/after slider, animated stat counters, mobile nav, scroll animations, FAQ accordion, volunteer signup form, progress tracker.
-- DONE (2026-07-23): Logo chosen. Two options dropped in the `logo/` folder (`SSLA logo.jpg`, a circular palm mosaic emblem, and `SSLA 2 logo.jpg`, a horizontal navy lockup). Picked the circular emblem, it crops tighter at small signature sizes. Pushed to `website/images/logo-signature.jpg` and live at sidewalkstoriesla.org/images/logo-signature.jpg so it can be referenced by URL in emails instead of a bulky attachment. Not yet placed on the actual website pages (header/footer), just hosted for email use so far.
-- DONE (2026-07-23): `Email-Signature.html` updated with the logo and a two-column layout (logo left, name/title/contact/tagline/socials right), matching the site's existing brand colors (#E07B3A orange, #2C5F8A blue). Ready to paste into Outlook or Gmail signature settings for day-to-day use; also used directly in the four outreach drafts this session.
-- NEXT: Add the logo to the actual website (header/footer/favicon), not just the email signature.
+- DONE (2026-07-23): Logo chosen. Two options dropped in the `logo/` folder (`SSLA logo.jpg`, a circular palm mosaic emblem, and `SSLA 2 logo.jpg`, a horizontal navy lockup). Picked the circular emblem, it crops tighter at small signature sizes. Pushed to `website/images/logo-signature.jpg` and live at sidewalkstoriesla.org/images/logo-signature.jpg so it can be referenced by URL in emails instead of a bulky attachment.
+- DONE (2026-07-23): `Email-Signature.html` updated with the logo and a two-column layout (logo left, name/title/contact/tagline/socials right), matching the site's existing brand colors (#E07B3A orange, #2C5F8A blue). Ready to paste into Outlook or Gmail signature settings for day-to-day use; also used directly in the outreach drafts this session.
+- DONE (2026-07-23): Logo added to website header, footer navigation, and favicon on all pages. Verified live at sidewalkstoriesla.org.
 - NEXT: Set up the Gmail signature in Workspace settings using Email-Signature.html so it applies automatically, not just this session's manually-built drafts.
 - DONE: Create GitHub repo (CLSCRE/sidewalk-stories-la) and configure GitHub Pages auto-deployment via Actions workflow.
 - DONE: Configure custom domain (sidewalkstoriesla.org) on GitHub Pages. CNAME file added.
 - DONE: Add real stock photography (cracked-pavement.jpg, mosaic-tiles.jpg, kids-art.jpg, artist-working.jpg) to replace placeholders across all pages. Images pushed to GitHub and live on site.
-- NOW: Add DNS A records at domain registrar pointing to GitHub Pages IPs (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153).
+- DONE: DNS A records at Namecheap confirmed pointing to GitHub Pages IPs (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153). Site is live.
 - DONE: Create Instagram content strategy with 8 caption templates, hashtag strategy, and 10-post launch schedule. Saved as Instagram-Content-Strategy.md.
 - DONE: Draft Trevor LinkedIn founder summary, headline options, experience entry, and 5 post templates. Saved as Trevor-LinkedIn-Founder-Summary.md.
 - DONE: Create professional HTML email signature for trevor@sidewalkstoriesla.org. Saved as Email-Signature.html.
@@ -138,12 +138,8 @@ Goal: design the actual workflow from resident submission to finished mosaic.
 Goal: lock in the first teaching artist and leverage existing community relationships.
 
 - DONE: Reach out to Patricia at The Pottery Room in Culver City. Trevor is a member of the studio and knows her personally. Message sent 2026-07-19.
-- HOLD: Wait for Patricia's response.
-- NEXT: Ask Patricia about her sidewalk mosaic and public artwork experience.
-- NEXT: Ask Patricia about her familiarity with city permits, public right-of-way artwork rules, and recommended contractors.
-- NEXT: Gauge Patricia's interest and availability as the pilot teaching artist. Budget is $400 per panel stipend.
-- NEXT: Ask Patricia if she can recommend a pilot neighborhood or property owner for the first panel.
-- NEXT: Ask Patricia for her rate expectations and whether she can help recruit youth participants.
+- NOW: Follow up with Patricia to gauge interest, ask about sidewalk mosaic/public art experience, city permitting familiarity, teaching artist rate/availability, and whether she can recommend a pilot panel or property owner. Draft in progress.
+- NEXT: Schedule coffee or call to walk through concept, budget, and pilot timeline if she responds positively.
 - NOTE: Patricia is a warm lead. She has existing city relationships from public/private artwork projects. Do not treat this as a cold outreach.
 
 ## Track I — ULI Meeting Intelligence (Trevor)
@@ -160,8 +156,8 @@ Goal: capture relevant insights from Urban Land Institute meetings for Sidewalk 
 
 ## Decisions needed from Trevor
 
-1. **Entity name and domain:** Confirm "Sidewalk Stories LA" or propose alternatives. Check domain availability.
-2. **Third board member:** Who is your independent director? An arts educator, a nonprofit lawyer, or a community organizer would be ideal.
-3. **Pilot neighborhood:** Which LA neighborhood gets the first panel? ~~Pick one with visible need and a known community contact.~~ **DECIDED: Trevor's neighborhood (Fairfax / Mid-City West area, near Blackburn Ave and Melrose). Trevor knows specific damaged panels in the area and has community context.**
-4. **Fiscal sponsor vs standalone:** Do you want to launch under a fiscal sponsor for Year 1, or form your own 501(c)(3) immediately?
+1. ~~**Entity name and domain:** Confirm "Sidewalk Stories LA" or propose alternatives. Check domain availability.~~ **DECIDED: "Sidewalk Stories LA"; domains sidewalkstoriesla.org and .com registered; website live.**
+2. **Third board member:** Who is your independent director? An arts educator, a nonprofit lawyer, or a community organizer would be ideal. A recruitment draft is in progress.
+3. ~~**Pilot neighborhood:** Which LA neighborhood gets the first panel?~~ **DECIDED: Trevor's neighborhood (Fairfax / Mid-City West area, near Blackburn Ave and Melrose). Trevor knows specific damaged panels in the area and has community context.**
+4. **Fiscal sponsor vs standalone:** Do you want to launch under a fiscal sponsor for Year 1, or form your own 501(c)(3) immediately? Formation package in progress; fiscal sponsor outreach pending replies.
 5. **Jason role options:** Prepare three scenarios for the call (board member with tech oversight, advisor with app license, or co founder with deeper equity equivalent in nonprofit terms).
