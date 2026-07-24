@@ -111,6 +111,7 @@ Goal: build the online footprint so funders, sponsors, and residents can find an
 - DONE: Configure custom domain (sidewalkstoriesla.org) on GitHub Pages. CNAME file added.
 - DONE: Add real stock photography (cracked-pavement.jpg, mosaic-tiles.jpg, kids-art.jpg, artist-working.jpg) to replace placeholders across all pages. Images pushed to GitHub and live on site.
 - DONE: DNS A records at Namecheap confirmed pointing to GitHub Pages IPs (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153). Site is live.
+- DONE (2026-07-23): Created Outlook subfolder `Inbox > Sidewalk Stories LA` under `trevor@clscre.com` and moved 371 related emails there from across all accounts (clscre.com, Gmail, sidewalkstoriesla.org, districtbridgecapital.com). Returned 28 unsent drafts to `trevor@sidewalkstoriesla.org > Drafts` and deduplicated to 14 unique drafts for review.
 - DONE: Create Instagram content strategy with 8 caption templates, hashtag strategy, and 10-post launch schedule. Saved as Instagram-Content-Strategy.md.
 - DONE: Draft Trevor LinkedIn founder summary, headline options, experience entry, and 5 post templates. Saved as Trevor-LinkedIn-Founder-Summary.md.
 - DONE: Create professional HTML email signature for trevor@sidewalkstoriesla.org. Saved as Email-Signature.html.
