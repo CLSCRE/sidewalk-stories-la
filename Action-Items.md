@@ -23,8 +23,8 @@ Goal: bring Jason in as founding tech partner and confirm app licensing.
 - NOW: Trevor already replied same night asking Jason directly "is this a product that they own?" (re: Adam's team) and said he'd look into the zoning issue himself. **Jason has not answered that IP-ownership question yet as of 2026-07-22.** This is now the open item, not a cold outreach waiting on a first response.
 - BROKEN (found 2026-07-22 via trevor@sidewalkstoriesla.org check-in): the separate "Sidewalk Stories LA update: website is live, nonprofit is forming" follow-up (sent 2026-07-20 from tdamyan@gmail.com, logged elsewhere in this file as DONE) was actually addressed to **jason.clement@example.com**, a placeholder address left over from the draft notes, not jason@getvisible.com. It never reached Jason. Needs to be resent to the correct address.
 - DONE (2026-07-23): Corrected resend drafted in Outlook to jason@getvisible.com with the website update, nudge on the outstanding IP-ownership question, branded HTML signature, and links to both PDFs hosted at sidewalkstoriesla.org/documents/. Awaiting Trevor approval before sending.
-- NEXT: Get the zoning/curb-ramp-trigger issue checked (city contact outreach in Track D partly covers this; may need a direct question to BOE or a construction-savvy contact).
 - NEXT: Once Jason answers the IP-ownership question, schedule the call to lock in: app IP terms, licensing vs. rebuild decision, his title and governance role.
+- NEXT: Get the zoning/curb-ramp-trigger issue checked (city contact outreach in Track D partly covers this; may need a direct question to BOE or a construction-savvy contact).
 
 ## Track B — Financial Model Repair (Trevor + Claude)
 Goal: fix the $121K Year 1 loss so the nonprofit is fundable.
@@ -39,12 +39,13 @@ Goal: fix the $121K Year 1 loss so the nonprofit is fundable.
 ## Track C — Legal Formation (NOW)
 Goal: form a California nonprofit public benefit corporation and pursue 501(c)(3).
 
-- NOW: Confirm entity name and DBA. Working name: Sidewalk Stories LA. Verify at bizfileonline.sos.ca.gov.
+- DONE: Confirm entity name and DBA. Working name: Sidewalk Stories LA. Verify at bizfileonline.sos.ca.gov.
 - DONE: Confirm domain availability and register. sidewalkstoriesla.org and .com registered at Namecheap.
-- NOW: File Articles of Incorporation (Form ARTS-NP) with CA Secretary of State ($30). See ARTS-NP-Draft.md for pre-filled form.
+- NOW: File Articles of Incorporation (Form ARTS-NP) with CA Secretary of State ($30). See ARTS-NP-Draft.md for pre-filled, finalized filing package. Trevor must submit this personally (identity verification + payment).
 - NEXT: Get EIN from IRS (select Other nonprofit organization). Use online EIN assistant at irs.gov.
 - DONE: Draft bylaws (board of at least 3 directors). Saved as Bylaws-Template.md; ready for signature once directors are confirmed.
-- NEXT: Recruit founding board. If Jason confirms, he is Director #2. If not, find an independent director (arts educator, nonprofit lawyer, or community organizer) as Director #2. Trevor is Director #1 and Board President.
+- NOW: Recruit founding board. If Jason confirms, he is Director #2. If not, find an independent director (arts educator, nonprofit lawyer, or community organizer) as Director #2. Trevor is Director #1 and Board President.
+- DONE (2026-07-23): Board member recruitment email draft created in Outlook. To field is a placeholder until Trevor identifies a candidate.
 - NEXT: File Statement of Information (Form SI-100) within 90 days ($20).
 - NEXT: Apply for 501(c)(3) status (Form 1023-EZ if eligible, $275; or full Form 1023, $600).
 - DONE: Draft board resolution for bank account opening. Saved as Board-Resolution-Bank-Account.md.
@@ -67,7 +68,8 @@ Goal: confirm the actual pathway to legally repair and mosaic a public sidewalk 
   - **Safe Sidewalks LA (sidewalks@lacity.org, replied 2026-07-22):** The Sidewalk Rebate Program requires ADA compliance property-line to property-line, and **the mosaic would not qualify under a regular A Permit** issued under that rebate program. Need to contact LA's Central District directly about the art installation itself, via a Customer Service Request (CSR) at dscsr.lacity.org.
   - **Mid-City West NC (Valerie Washburn, vwashburn@midcitywest.org, replied 2026-07-22):** MCWNC does offer Neighborhood Purpose Grants to 501(c)(3)s, but they're still finalizing the 2026-27 application process and deadlines; she'll follow up once set. Invited Trevor to give a 2-minute public comment intro at an upcoming Board or Executive Committee meeting (calendar/Zoom links at midcitywest.org/calendar).
 - DONE (2026-07-23): Final reply drafts to all three city contacts created in Outlook with branded HTML signature: Mason Ng/DCA, Safe Sidewalks LA, and Valerie Washburn/MCWNC. Awaiting Trevor approval before sending.
-- NEXT: Send the three drafted replies once Trevor reviews them.
+- DONE (2026-07-23): New outreach draft created in Outlook for StreetsLA/Bureau of Engineering material and safety requirements.
+- NEXT: Send the drafted replies once Trevor reviews them.
 - DONE (2026-07-23): CSR submitted to LA Central District via dscsr.lacity.org (Angeleno account). Request text from CSR-Request-Draft.md, Property/Job Address 7951 Blackburn Ave, Zip 90048. **Status: pending.** No confirmation number captured yet.
 - NEXT: Get the CSR confirmation/reference number once it comes through and log it here. Follow up if no response within 10 business days of 2026-07-23.
 - NEXT: Take DCA up on the free voluntary early review before committing further, given the "most likely requires Commission review" answer.
@@ -88,7 +90,9 @@ Goal: identify and rank 15 to 20 grant prospects aligned with youth arts, public
 - DONE: Full grant proposal template created (narrative, budget, outcomes, evaluation plan, attachments checklist). Saved as Grant-Proposal-Template.md and PDF.
 - DONE: Sponsorship pitch for local businesses created ($750 per panel, logo on mosaic, social content). Saved as Sponsorship-Pitch.md and PDF.
 - DONE: Draft fiscal sponsor outreach emails for Community Partners and Arts for LA. Saved to Outlook drafts; ready to send.
+- DONE (2026-07-23): Corrected Community Partners draft recreated in Outlook to AskUs@CommunityPartners.Zendesk.com after the original partnerships@communitypartners.org bounced twice.
 - DONE: Draft Awesome Foundation LA application ($1,000, no 501(c)(3) required). Saved to Outlook draft; ready to send.
+- DONE (2026-07-23): Awesome Foundation LA draft recreated in Outlook with branded signature.
 - NEXT: Customize grant proposal for first 3 Tier 1 funders and submit (CCF, LA County Arts, DCA).
 - NEXT: Evaluate fiscal sponsor options after Community Partners and Arts for LA respond.
 - NOTE (2026-07-22 check-in, via trevor@sidewalkstoriesla.org Gmail): Arts for LA sent only an automated "we received your inquiry" acknowledgment on 2026-07-20, no human reply yet, no bounce. Confirms the inquiry landed correctly (unlike Community Partners, which bounced twice, 2026-07-20 and again 2026-07-22, same bad address partnerships@communitypartners.org, still needs a corrected address before resending).
@@ -138,7 +142,7 @@ Goal: design the actual workflow from resident submission to finished mosaic.
 Goal: lock in the first teaching artist and leverage existing community relationships.
 
 - DONE: Reach out to Patricia at The Pottery Room in Culver City. Trevor is a member of the studio and knows her personally. Message sent 2026-07-19.
-- NOW: Follow up with Patricia to gauge interest, ask about sidewalk mosaic/public art experience, city permitting familiarity, teaching artist rate/availability, and whether she can recommend a pilot panel or property owner. Draft in progress.
+- DONE (2026-07-23): Follow-up draft created in Outlook for Patricia. The To field is a placeholder because her email is not on file; use Instagram DM if that is still the preferred channel, or paste in her email before sending.
 - NEXT: Schedule coffee or call to walk through concept, budget, and pilot timeline if she responds positively.
 - NOTE: Patricia is a warm lead. She has existing city relationships from public/private artwork projects. Do not treat this as a cold outreach.
 
