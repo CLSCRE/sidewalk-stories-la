@@ -18,9 +18,13 @@ Goal: bring Jason in as founding tech partner and confirm app licensing.
 - DONE: Concept documents drafted (Grant Concept and Jason Concept).
 - DONE: Financial model built (v1, needs revision).
 - DONE: Outlook HTML draft created with attachments (One-Page-Funder-Prospectus.pdf, Financial Model PDF, Partnership-Outline-for-Jason.pdf).
-- DONE: Email sent 2026-07-20 from Trevor's Gmail (pivoted from call to email outreach per Trevor's preference).
-- NEXT: If no response within 10 business days, send a brief follow up.
-- NEXT: If Jason responds positively, schedule a call to lock in: app IP ownership, licensing or rebuild decision, his title and governance role.
+- DONE: Email actually sent 2026-07-19 8:19pm from trevor@clscre.com (Outlook, not Gmail as previously logged here) to jason@getvisible.com.
+- DONE (2026-07-22 check-in): Jason replied twice same night. He said yes to talking about it with "Adam's team" since the old campaign tech stack is still up, but flagged a real legal risk to check first: fixing a single sidewalk panel can trigger California/ADA rules requiring adjacent curb ramp upgrades too, which raises the real per-panel cost. He also said "we built it for him, obviously the underlying tech is mine, but I think it's the decent thing to do" on the IP question, leaving open whose IP the app actually is.
+- NOW: Trevor already replied same night asking Jason directly "is this a product that they own?" (re: Adam's team) and said he'd look into the zoning issue himself. **Jason has not answered that IP-ownership question yet as of 2026-07-22.** This is now the open item, not a cold outreach waiting on a first response.
+- BROKEN (found 2026-07-22 via trevor@sidewalkstoriesla.org check-in): the separate "Sidewalk Stories LA update: website is live, nonprofit is forming" follow-up (sent 2026-07-20 from tdamyan@gmail.com, logged elsewhere in this file as DONE) was actually addressed to **jason.clement@example.com**, a placeholder address left over from the draft notes, not jason@getvisible.com. It never reached Jason. Needs to be resent to the correct address.
+- DONE (2026-07-23, final version): Corrected resend drafted (Gmail, trevor@sidewalkstoriesla.org, saved to Drafts, not sent) to jason@getvisible.com with the website update content, a nudge on the outstanding IP-ownership question, the branded HTML signature (logo + contact block), and links to both PDFs (hosted at sidewalkstoriesla.org/documents/ instead of true email attachments, since the drafting tool can't attach files directly). **Two earlier draft attempts for this same email are now superseded and sitting in Drafts, delete them**: one with no attachments/links and no signature, one that wrongly said "I have attached" without anything actually attached. Keep only the newest "Sidewalk Stories LA update" draft to Jason.
+- NEXT: Get the zoning/curb-ramp-trigger issue checked (city contact outreach in Track D partly covers this; may need a direct question to BOE or a construction-savvy contact).
+- NEXT: Once Jason answers the IP-ownership question, schedule the call to lock in: app IP terms, licensing vs. rebuild decision, his title and governance role.
 
 ## Track B — Financial Model Repair (Trevor + Claude)
 Goal: fix the $121K Year 1 loss so the nonprofit is fundable.
@@ -58,7 +62,18 @@ Goal: confirm the actual pathway to legally repair and mosaic a public sidewalk 
 - DONE: Contact directory created with verified emails for BOE, StreetsLA, DCA, Safe Sidewalks LA, and Mid-City West Neighborhood Council. See City-Contact-Directory.md.
 - DONE: Outlook email drafts created for all three city contacts.
 - DONE: Trevor sent all three emails from Gmail on 2026-07-20 with CJ cc'd. Recipients: sidewalks@lacity.org, dca.review@lacity.org, outreach@midcitywest.org.
-- NEXT: Confirm liability requirements when minors work on public right of way (pending city response). Follow up if no reply within 10 business days.
+- DONE (2026-07-22 check-in, replies found in trevor@sidewalkstoriesla.org after Trevor forwarded them from tdamyan@gmail.com): **All three city contacts replied.**
+  - **DCA (Mason Ng, mason.ng@lacity.org, replied 2026-07-21):** A mosaic on a public sidewalk panel most likely requires Cultural Affairs Commission review since it's in the public right-of-way. Fee is based on project valuation; a voluntary early review is free. Design/material/anti-slip requirements and right-of-way rules go through Bureau of Street Services (BSS) and Bureau of Engineering (BOE), not DCA. Contractor (not the artist) would need to carry the liability insurance; ask BSS/BOE. PWIAP (the city's 1%-for-arts fund) is tied to specific capital projects (e.g. a new rec center), not applicable here directly, but neighborhood council or City Council District sponsorship can help fast-track a project like this.
+  - **Safe Sidewalks LA (sidewalks@lacity.org, replied 2026-07-22):** The Sidewalk Rebate Program requires ADA compliance property-line to property-line, and **the mosaic would not qualify under a regular A Permit** issued under that rebate program. Need to contact LA's Central District directly about the art installation itself, via a Customer Service Request (CSR) at dscsr.lacity.org.
+  - **Mid-City West NC (Valerie Washburn, vwashburn@midcitywest.org, replied 2026-07-22):** MCWNC does offer Neighborhood Purpose Grants to 501(c)(3)s, but they're still finalizing the 2026-27 application process and deadlines; she'll follow up once set. Invited Trevor to give a 2-minute public comment intro at an upcoming Board or Executive Committee meeting (calendar/Zoom links at midcitywest.org/calendar).
+- DONE (2026-07-23, final versions with signature): Drafted replies (Gmail, trevor@sidewalkstoriesla.org, saved to Drafts, not sent) to all three city contacts, now with the branded HTML signature (logo + contact block): Mason Ng/DCA (asks how to request the free voluntary early review, will contact BSS/BOE directly, flags MCWNC support), Safe Sidewalks LA (confirms will file a CSR with Central District, notes separate standard concrete repair permit still needed), and Valerie Washburn/MCWNC (asks for the next meeting date for the 2-minute public comment intro). **Each of these three has one earlier, signature-less duplicate draft still sitting in Drafts, delete the older one for each recipient and keep only the newest.**
+- NEXT: Send the three drafted replies above once Trevor reviews them.
+- DONE (2026-07-23): CSR submitted to LA Central District via dscsr.lacity.org (Angeleno account). Request text from CSR-Request-Draft.md, Property/Job Address 7951 Blackburn Ave, Zip 90048. **Status: pending.** No confirmation number captured yet.
+- NEXT: Get the CSR confirmation/reference number once it comes through and log it here. Follow up if no response within 10 business days of 2026-07-23.
+- NEXT: Take DCA up on the free voluntary early review before committing further, given the "most likely requires Commission review" answer.
+- NEXT: Contact BSS and BOE directly for the actual design/material/anti-slip and right-of-way permit requirements, since DCA punted those questions to them.
+- NEXT: Confirm liability requirements when minors work on public right of way is now answered in part: the licensed concrete contractor carries the insurance per DCA; still confirm this covers the youth mosaic activity itself, not just the concrete repair.
+- NEXT: Sign up for an upcoming Mid-City West NC Board or Executive Committee meeting to give the 2-minute public comment intro Valerie invited (pending her reply with a date).
 - DONE: Pilot neighborhood selected: Trevor's neighborhood (Fairfax / Mid-City West area, near Blackburn Ave and Melrose). Trevor's address: 7951 Blackburn Ave.
 - NEXT: Identify specific damaged sidewalk panels in Trevor's neighborhood to photograph for the app pilot.
 - NEXT: Identify one willing property owner adjacent to the pilot panel.
@@ -76,6 +91,7 @@ Goal: identify and rank 15 to 20 grant prospects aligned with youth arts, public
 - DONE: Draft Awesome Foundation LA application ($1,000, no 501(c)(3) required). Saved to Outlook draft; ready to send.
 - NEXT: Customize grant proposal for first 3 Tier 1 funders and submit (CCF, LA County Arts, DCA).
 - NEXT: Evaluate fiscal sponsor options after Community Partners and Arts for LA respond.
+- NOTE (2026-07-22 check-in, via trevor@sidewalkstoriesla.org Gmail): Arts for LA sent only an automated "we received your inquiry" acknowledgment on 2026-07-20, no human reply yet, no bounce. Confirms the inquiry landed correctly (unlike Community Partners, which bounced twice, 2026-07-20 and again 2026-07-22, same bad address partnerships@communitypartners.org, still needs a corrected address before resending).
 
 ## Track F — Digital Presence (NOW)
 Goal: build the online footprint so funders, sponsors, and residents can find and verify the organization.
@@ -83,6 +99,10 @@ Goal: build the online footprint so funders, sponsors, and residents can find an
 - DONE: Register sidewalkstoriesla.org and sidewalkstoriesla.com at Namecheap (~$24/year).
 - DONE: Set up Google Workspace Business Starter ($6/month for 1 user, trevor@sidewalkstoriesla.org).
 - DONE: Build full multi-page website: index.html (landing), about.html, program.html, contact.html (with donate form), 404.html, faq.html, volunteer.html, stories.html, press-kit.html. Includes responsive CSS, interactive before/after slider, animated stat counters, mobile nav, scroll animations, FAQ accordion, volunteer signup form, progress tracker.
+- DONE (2026-07-23): Logo chosen. Two options dropped in the `logo/` folder (`SSLA logo.jpg`, a circular palm mosaic emblem, and `SSLA 2 logo.jpg`, a horizontal navy lockup). Picked the circular emblem, it crops tighter at small signature sizes. Pushed to `website/images/logo-signature.jpg` and live at sidewalkstoriesla.org/images/logo-signature.jpg so it can be referenced by URL in emails instead of a bulky attachment. Not yet placed on the actual website pages (header/footer), just hosted for email use so far.
+- DONE (2026-07-23): `Email-Signature.html` updated with the logo and a two-column layout (logo left, name/title/contact/tagline/socials right), matching the site's existing brand colors (#E07B3A orange, #2C5F8A blue). Ready to paste into Outlook or Gmail signature settings for day-to-day use; also used directly in the four outreach drafts this session.
+- NEXT: Add the logo to the actual website (header/footer/favicon), not just the email signature.
+- NEXT: Set up the Gmail signature in Workspace settings using Email-Signature.html so it applies automatically, not just this session's manually-built drafts.
 - DONE: Create GitHub repo (CLSCRE/sidewalk-stories-la) and configure GitHub Pages auto-deployment via Actions workflow.
 - DONE: Configure custom domain (sidewalkstoriesla.org) on GitHub Pages. CNAME file added.
 - DONE: Add real stock photography (cracked-pavement.jpg, mosaic-tiles.jpg, kids-art.jpg, artist-working.jpg) to replace placeholders across all pages. Images pushed to GitHub and live on site.
