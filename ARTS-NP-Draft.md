@@ -80,11 +80,14 @@ Los Angeles, CA 90048
 
 ## Filing Checklist
 
-- [ ] Confirm name availability at bizfileonline.sos.ca.gov
-- [ ] Fill out Form ARTS-NP online (or print and mail)
+- [ ] Confirm name availability at bizfileonline.sos.ca.gov (search "Sidewalk Stories LA")
+- [ ] Confirm whether to file with Trevor as sole initial director (fastest) or wait for a third board member
+- [ ] Fill out Form ARTS-NP online at bizfileonline.sos.ca.gov
 - [ ] Pay $30 filing fee
-- [ ] Save the filed copy ( stamped Articles of Incorporation )
+- [ ] Save the filed copy (stamped Articles of Incorporation)
 - [ ] File within 90 days: Statement of Information (Form SI-100), $20 fee
+
+**Recommended approach:** File with Trevor Damyan as the sole initial director. This avoids waiting for a third board member and lets you get the EIN and bank account opened faster. Additional directors can be added by board resolution after formation.
 
 ---
 
@@ -140,16 +143,20 @@ Los Angeles, CA 90048
 
 ---
 
-## Documents Needed for This Step
+## Supporting Documents Already Drafted
 
-- [ ] ARTS-NP filed and stamped (this document)
-- [ ] EIN confirmation letter from IRS
-- [ ] Bylaws (template to be created next)
-- [ ] Board resolution authorizing bank account
-- [ ] Organizational meeting minutes
+- [x] `ARTS-NP-Draft.md` — this pre-filled filing form
+- [x] `Bylaws-Template.md` — ready to adopt once directors are confirmed
+- [x] `Board-Resolution-Bank-Account.md` — ready to sign after organizational meeting
+- [x] `Conflict-of-Interest-Policy.md` — required for 501(c)(3); ready to adopt
+- [x] `Organizational-Meeting-Minutes-Template.md` — ready to complete after first board meeting
+- [x] `Form-1023-EZ-Eligibility-Checklist.md` — confirms likely eligibility for $275 EZ application
+- [ ] ARTS-NP filed and stamped (submit online)
+- [ ] EIN confirmation letter from IRS (after filing)
+- [ ] Statement of Information (Form SI-100) within 90 days of filing
 
 ---
 
 **Prepared for:** Trevor Damyan, Founder  
-**Date:** 2026-07-20  
-**Status:** Ready to file once Trevor confirms the three items above (name, address, initial director count)
+**Date:** 2026-07-23  
+**Status:** Ready to file. Trevor should confirm the final three items below, then submit online at bizfileonline.sos.ca.gov. This must be done by Trevor personally (identity verification + payment).
