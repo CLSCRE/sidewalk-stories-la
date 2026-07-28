@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Report Panel | Sidewalk Stories LA</title>
+<meta name="theme-color" content="#2C5F8A">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/jpeg" href="../images/logo-signature.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="app-shell">
+<header class="app-top">
+<a class="app-brand" href="index.html"><img src="../images/logo-signature.jpg" alt=""> Panel App</a>
+<nav class="app-nav">
+<a href="index.html" data-nav="map">Map</a>
+<a href="report.html" data-nav="report" class="active">Report</a>
+<a href="admin.html" data-nav="admin">Admin</a>
+<a href="../report-panel.html">Site form</a>
+</nav>
+</header>
+<main class="app-main">
+<div class="card">
+<h1>Report a cracked panel</h1>
+<p class="muted">Camera + GPS + map pin. Saves locally; optional cloud hooks in panel-config.js.</p>
+<form id="app-report-form">
+<div class="grid-2">
+<div><label for="name">Name *</label><input id="name" required autocomplete="name"></div>
+<div><label for="email">Email *</label><input id="email" type="email" required autocomplete="email"></div>
+</div>
+<div class="grid-2">
+<div><label for="phone">Phone</label><input id="phone" type="tel"></div>
+<div><label for="neighborhood">Neighborhood</label><input id="neighborhood" placeholder="Fairfax / Mid-City West"></div>
+</div>
+<div class="row-actions">
+<button type="button" class="btn btn-navy" id="btn-locate">Use my location</button>
+<button type="button" class="btn btn-ghost" id="btn-clear">Clear pin</button>
+</div>
+<p class="pin-box" id="coords-label">No pin yet.</p>
+<div id="map"></div>
+<input type="hidden" id="lat"><input type="hidden" id="lng">
+<label for="address">Address or cross streets *</label>
+<input id="address" required placeholder="Near Blackburn and Melrose">
+<label for="damage">Damage type</label>
+<select id="damage"><option value="">Select...</option><option>Cracked / broken</option><option>Lifted / trip hazard</option><option>Tree root damage</option><option>Missing pieces / holes</option><option>Other</option></select>
+<label for="notes">Notes</label>
+<textarea id="notes" placeholder="Optional details"></textarea>
+<label for="photo">Photo</label>
+<input id="photo" type="file" accept="image/*" capture="environment">
+<img id="photo-preview" alt="Preview">
+<div class="row-actions">
+<button type="submit" class="btn btn-primary" id="btn-submit">Submit report</button>
+</div>
+<div class="status" id="status"></div>
+</form>
+</div>
+</main>
+<footer class="app-footer">Sidewalk Stories LA - own the sidewalk reporter</footer>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="../js/panel-config.js"></script>
+<script src="../js/panel-store.js"></script>
+<script src="js/app-common.js"></script>
+<script src="js/report.js"></script>
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(function(){})}</script>
+</body>
+</html>

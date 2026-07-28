@@ -1,6 +1,6 @@
 # Sidewalk Stories LA — Action Items and Tracker
 
-_Updated 2026-07-23. Status keys: DONE, NOW (ready to act), NEXT (queued), HOLD (gated)._ 
+_Updated 2026-07-24. Status keys: DONE, NOW (ready to act), NEXT (queued), HOLD (gated)._ 
 
 ## The Gate
 Trevor has decided to proceed with legal formation regardless of Jason's response. The Year 1 financial model is now credible ($38,700 budget, $25,250 revenue, $13,450 founder bridge). Jason remains a priority outreach but is no longer a blocker for incorporation.
@@ -13,18 +13,15 @@ Trevor has decided to proceed with legal formation regardless of Jason's respons
 ---
 
 ## Track A — Jason Partnership and Tech (Trevor)
-Goal: bring Jason in as founding tech partner and confirm app licensing.
+Goal: light tech partnership without blocking the program; prefer SSLA-owned reporter.
 
 - DONE: Concept documents drafted (Grant Concept and Jason Concept).
-- DONE: Financial model built (v1, needs revision).
-- DONE: Outlook HTML draft created with attachments (One-Page-Funder-Prospectus.pdf, Financial Model PDF, Partnership-Outline-for-Jason.pdf).
-- DONE: Email actually sent 2026-07-19 8:19pm from trevor@clscre.com (Outlook, not Gmail as previously logged here) to jason@getvisible.com.
-- DONE (2026-07-22 check-in): Jason replied twice same night. He said yes to talking about it with "Adam's team" since the old campaign tech stack is still up, but flagged a real legal risk to check first: fixing a single sidewalk panel can trigger California/ADA rules requiring adjacent curb ramp upgrades too, which raises the real per-panel cost. He also said "we built it for him, obviously the underlying tech is mine, but I think it's the decent thing to do" on the IP question, leaving open whose IP the app actually is.
-- NOW: Trevor already replied same night asking Jason directly "is this a product that they own?" (re: Adam's team) and said he'd look into the zoning issue himself. **Jason has not answered that IP-ownership question yet as of 2026-07-22.** This is now the open item, not a cold outreach waiting on a first response.
-- BROKEN (found 2026-07-22 via trevor@sidewalkstoriesla.org check-in): the separate "Sidewalk Stories LA update: website is live, nonprofit is forming" follow-up (sent 2026-07-20 from tdamyan@gmail.com, logged elsewhere in this file as DONE) was actually addressed to **jason.clement@example.com**, a placeholder address left over from the draft notes, not jason@getvisible.com. It never reached Jason. Needs to be resent to the correct address.
-- DONE (2026-07-23): Corrected resend drafted in Outlook to jason@getvisible.com with the website update, nudge on the outstanding IP-ownership question, branded HTML signature, and links to both PDFs hosted at sidewalkstoriesla.org/documents/. Awaiting Trevor approval before sending.
-- NEXT: Once Jason answers the IP-ownership question, schedule the call to lock in: app IP terms, licensing vs. rebuild decision, his title and governance role.
-- NEXT: Get the zoning/curb-ramp-trigger issue checked (city contact outreach in Track D partly covers this; may need a direct question to BOE or a construction-savvy contact).
+- DONE: Initial outreach and follow-ups; Adam/Evan permission path basically clear; licensing would be paid.
+- DONE (2026-07-27): Jason: "Try it yourself first... What the Adrecom team built in FixLA is serious engineering but It may be overkill for you."
+- DONE (2026-07-27): SSLA own-stack panel reporter scaffolded (Track J) — photo/GPS/map/admin PWA. Continue building; not waiting on Jason.
+- HOLD: Paid FixLA/Adrecom adaptation until we know costs and whether own stack runs pilot.
+- NEXT: Optional short thanks/reply to Jason acknowledging DIY path + light advisor seat.
+- NEXT: Get the zoning/curb-ramp-trigger issue checked (city track).
 
 ## Track B — Financial Model Repair (Trevor + Claude)
 Goal: fix the $121K Year 1 loss so the nonprofit is fundable.
@@ -44,8 +41,13 @@ Goal: form a California nonprofit public benefit corporation and pursue 501(c)(3
 - NOW: File Articles of Incorporation (Form ARTS-NP) with CA Secretary of State ($30). See ARTS-NP-Draft.md for pre-filled, finalized filing package. Trevor must submit this personally (identity verification + payment).
 - NEXT: Get EIN from IRS (select Other nonprofit organization). Use online EIN assistant at irs.gov.
 - DONE: Draft bylaws (board of at least 3 directors). Saved as Bylaws-Template.md; ready for signature once directors are confirmed.
-- NOW: Recruit founding board. If Jason confirms, he is Director #2. If not, find an independent director (arts educator, nonprofit lawyer, or community organizer) as Director #2. Trevor is Director #1 and Board President.
-- DONE (2026-07-23): Board member recruitment email draft created in Outlook. To field is a placeholder until Trevor identifies a candidate.
+- DONE (2026-07-27 evening): Meredith Reed **accepted Director + Board Secretary** in writing (email to trevor@sidewalkstoriesla.org). Legal name confirmed; bio + headshot applied to website; records address 524 N Mansfield Ave, LA 90036 (not public). Reply draft created in Sidewalk Stories Drafts (not sent).
+- DONE (2026-07-27 evening): Jim De Vico **yes** on board; Friday **2:00 PM** call set. Treasurer + bio/headshot/address still for that call.
+- DONE (2026-07-27 evening): Jason says build reporter ourselves first ("Try it yourself first... may be overkill"); campaign stack would be paid if adapted. Seeded own-stack under Track J. Keep him light partner/advisor, not gate.
+- NOW: Trevor review/send Meredith reply draft from **trevor@sidewalkstoriesla.org** Drafts.
+- NOW: Create `meredith@sidewalkstoriesla.org` Workspace user and send login.
+- NOW: Deploy website so Meredith can review About / Press Kit live.
+- NEXT: Fri 2pm Jim call — Treasurer confirm, bio/headshot/address, notes into Board-Roster.
 - NEXT: File Statement of Information (Form SI-100) within 90 days ($20).
 - NEXT: Apply for 501(c)(3) status (Form 1023-EZ if eligible, $275; or full Form 1023, $600).
 - DONE: Draft board resolution for bank account opening. Saved as Board-Resolution-Bank-Account.md.
@@ -67,8 +69,8 @@ Goal: confirm the actual pathway to legally repair and mosaic a public sidewalk 
   - **DCA (Mason Ng, mason.ng@lacity.org, replied 2026-07-21):** A mosaic on a public sidewalk panel most likely requires Cultural Affairs Commission review since it's in the public right-of-way. Fee is based on project valuation; a voluntary early review is free. Design/material/anti-slip requirements and right-of-way rules go through Bureau of Street Services (BSS) and Bureau of Engineering (BOE), not DCA. Contractor (not the artist) would need to carry the liability insurance; ask BSS/BOE. PWIAP (the city's 1%-for-arts fund) is tied to specific capital projects (e.g. a new rec center), not applicable here directly, but neighborhood council or City Council District sponsorship can help fast-track a project like this.
   - **Safe Sidewalks LA (sidewalks@lacity.org, replied 2026-07-22):** The Sidewalk Rebate Program requires ADA compliance property-line to property-line, and **the mosaic would not qualify under a regular A Permit** issued under that rebate program. Need to contact LA's Central District directly about the art installation itself, via a Customer Service Request (CSR) at dscsr.lacity.org.
   - **Mid-City West NC (Valerie Washburn, vwashburn@midcitywest.org, replied 2026-07-22):** MCWNC does offer Neighborhood Purpose Grants to 501(c)(3)s, but they're still finalizing the 2026-27 application process and deadlines; she'll follow up once set. Invited Trevor to give a 2-minute public comment intro at an upcoming Board or Executive Committee meeting (calendar/Zoom links at midcitywest.org/calendar).
-- DONE (2026-07-23): Final reply drafts to all three city contacts created in Outlook with branded HTML signature: Mason Ng/DCA, Safe Sidewalks LA, and Valerie Washburn/MCWNC. Awaiting Trevor approval before sending.
-- DONE (2026-07-23): New outreach draft created in Outlook for StreetsLA/Bureau of Engineering material and safety requirements.
+- DONE (2026-07-24): Final reply drafts to Mason Ng/DCA, Safe Sidewalks LA, and Valerie Washburn/MCWNC recreated in the trevor@sidewalkstoriesla.org Drafts folder with proper HTML formatting and branded signature.
+- DONE (2026-07-24): New outreach draft to StreetsLA/Bureau of Engineering for material and safety requirements recreated in the trevor@sidewalkstoriesla.org Drafts folder.
 - NEXT: Send the drafted replies once Trevor reviews them.
 - DONE (2026-07-23): CSR submitted to LA Central District via dscsr.lacity.org (Angeleno account). Request text from CSR-Request-Draft.md, Property/Job Address 7951 Blackburn Ave, Zip 90048. **Status: pending.** No confirmation number captured yet.
 - NEXT: Get the CSR confirmation/reference number once it comes through and log it here. Follow up if no response within 10 business days of 2026-07-23.
@@ -89,10 +91,7 @@ Goal: identify and rank 15 to 20 grant prospects aligned with youth arts, public
 - DONE: Build a grant calendar with deadlines and requirements for Tier 1 funders (Grant-Calendar.md).
 - DONE: Full grant proposal template created (narrative, budget, outcomes, evaluation plan, attachments checklist). Saved as Grant-Proposal-Template.md and PDF.
 - DONE: Sponsorship pitch for local businesses created ($750 per panel, logo on mosaic, social content). Saved as Sponsorship-Pitch.md and PDF.
-- DONE: Draft fiscal sponsor outreach emails for Community Partners and Arts for LA. Saved to Outlook drafts; ready to send.
-- DONE (2026-07-23): Corrected Community Partners draft recreated in Outlook to AskUs@CommunityPartners.Zendesk.com after the original partnerships@communitypartners.org bounced twice.
-- DONE: Draft Awesome Foundation LA application ($1,000, no 501(c)(3) required). Saved to Outlook draft; ready to send.
-- DONE (2026-07-23): Awesome Foundation LA draft recreated in Outlook with branded signature.
+- DONE (2026-07-24): Fiscal sponsor outreach drafts for Community Partners (AskUs@CommunityPartners.Zendesk.com) and Arts for LA, plus the Awesome Foundation LA application, all recreated in the trevor@sidewalkstoriesla.org Drafts folder with proper formatting and branded signature.
 - NEXT: Customize grant proposal for first 3 Tier 1 funders and submit (CCF, LA County Arts, DCA).
 - NEXT: Evaluate fiscal sponsor options after Community Partners and Arts for LA respond.
 - NOTE (2026-07-22 check-in, via trevor@sidewalkstoriesla.org Gmail): Arts for LA sent only an automated "we received your inquiry" acknowledgment on 2026-07-20, no human reply yet, no bounce. Confirms the inquiry landed correctly (unlike Community Partners, which bounced twice, 2026-07-20 and again 2026-07-22, same bad address partnerships@communitypartners.org, still needs a corrected address before resending).
@@ -143,7 +142,7 @@ Goal: design the actual workflow from resident submission to finished mosaic.
 Goal: lock in the first teaching artist and leverage existing community relationships.
 
 - DONE: Reach out to Patricia at The Pottery Room in Culver City. Trevor is a member of the studio and knows her personally. Message sent 2026-07-19.
-- DONE (2026-07-23): Follow-up draft created in Outlook for Patricia. The To field is a placeholder because her email is not on file; use Instagram DM if that is still the preferred channel, or paste in her email before sending.
+- DONE (2026-07-24): Follow-up draft for Patricia recreated in the trevor@sidewalkstoriesla.org Drafts folder. The To field is still a placeholder until you add her email or send via Instagram DM.
 - NEXT: Schedule coffee or call to walk through concept, budget, and pilot timeline if she responds positively.
 - NOTE: Patricia is a warm lead. She has existing city relationships from public/private artwork projects. Do not treat this as a cold outreach.
 
@@ -159,10 +158,29 @@ Goal: capture relevant insights from Urban Land Institute meetings for Sidewalk 
 
 ---
 
+## Housekeeping — completed 2026-07-24
+- OneDrive folder reorganization is complete. The duplicate trailing-space folders (`Fundraising `, `Legal `, `Program `) were removed recursively.
+- Important Sidewalk Stories LA emails and their attachments have been exported from the `trevor@clscre.com\Inbox\Sidewalk Stories LA` Outlook folder into `communications\Outlook-Export-20260724-0745\` (41 emails, including city replies, Jason thread, fiscal sponsor outreach, and the CSR confirmation). A CSV index is included.
+- All pending outreach drafts were rebuilt with proper paragraph and number formatting and saved to `trevor@sidewalkstoriesla.org\[Gmail]\Drafts` for your approval before sending.
+- Email signature file: `Digital Presence\Email-Signature.html`.
+
+---
+
 ## Decisions needed from Trevor
 
 1. ~~**Entity name and domain:** Confirm "Sidewalk Stories LA" or propose alternatives. Check domain availability.~~ **DECIDED: "Sidewalk Stories LA"; domains sidewalkstoriesla.org and .com registered; website live.**
-2. **Third board member:** Who is your independent director? An arts educator, a nonprofit lawyer, or a community organizer would be ideal. A recruitment draft is in progress.
+2. ~~**Third board member**~~ **DECIDED 2026-07-25:** Meredith Reed (committed). Jim De Vico and Jason Clement fill remaining seats (Jim written conf pending; Jason light title seat).
 3. ~~**Pilot neighborhood:** Which LA neighborhood gets the first panel?~~ **DECIDED: Trevor's neighborhood (Fairfax / Mid-City West area, near Blackburn Ave and Melrose). Trevor knows specific damaged panels in the area and has community context.**
 4. **Fiscal sponsor vs standalone:** Do you want to launch under a fiscal sponsor for Year 1, or form your own 501(c)(3) immediately? Formation package in progress; fiscal sponsor outreach pending replies.
 5. **Jason role options:** Prepare three scenarios for the call (board member with tech oversight, advisor with app license, or co founder with deeper equity equivalent in nonprofit terms).
+
+## Track J - Panel Reporter App (OWN stack)
+Goal: collect cracked-panel photos + GPS without depending on Jason.
+
+- DONE (2026-07-27): Shipped site reporter (website/report-panel.html) with geo + map pin + photo compress + localStorage.
+- DONE (2026-07-27): Shipped PWA app under website/app/ (map, report, admin, export, service worker).
+- NOW: Set Formspree/webhook in website/js/panel-config.js and change admin PIN.
+- NOW: Deploy website so live sidewalkstoriesla.org serves the new form/app.
+- NEXT: After 20+ real reports, decide if Supabase/Airtable shared backend is needed.
+- NOTE: Jason remains light-tech board option, not a gate for data collection.
+

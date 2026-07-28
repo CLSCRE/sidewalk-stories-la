@@ -1,0 +1,25 @@
+{
+  "name": "Sidewalk Stories LA Panel Reporter",
+  "short_name": "SSLA Panels",
+  "description": "Report cracked LA sidewalk panels with photo and location",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#2C5F8A",
+  "theme_color": "#2C5F8A",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "../images/logo-signature.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "../images/logo-signature.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
