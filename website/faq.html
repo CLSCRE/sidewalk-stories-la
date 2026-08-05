@@ -1,184 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/jpeg" href="images/logo-signature.jpg">
-    <title>FAQ | Sidewalk Stories LA</title>
-    <meta name="description" content="Common questions about Sidewalk Stories LA: how our sidewalk mosaic program works, how to donate, volunteer, or sponsor a panel.">
-    <meta property="og:title" content="FAQ | Sidewalk Stories LA">
-    <meta property="og:description" content="Answers to your questions about our youth public art program, donations, volunteering, and sidewalk mosaic pilot in Los Angeles.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sidewalkstoriesla.org/faq.html">
-    <meta property="og:image" content="https://sidewalkstoriesla.org/images/og-image.jpg">
-    <meta property="og:site_name" content="Sidewalk Stories LA">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="FAQ | Sidewalk Stories LA">
-    <meta name="twitter:description" content="Answers to your questions about our youth public art program, donations, volunteering, and sidewalk mosaic pilot in Los Angeles.">
-    <meta name="twitter:image" content="https://sidewalkstoriesla.org/images/og-image.jpg">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <style>
-        .faq-item {
-            border-bottom: 1px solid var(--color-border);
-            padding: 24px 0;
-        }
-        .faq-item:last-child {
-            border-bottom: none;
-        }
-        .faq-question {
-            font-size: 1.15rem;
-            font-weight: 600;
-            color: var(--color-text);
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 16px;
-            width: 100%;
-            background: none;
-            border: none;
-            padding: 0;
-            text-align: left;
-            font-family: inherit;
-        }
-        .faq-question:hover {
-            color: var(--color-accent);
-        }
-        .faq-question:focus-visible {
-            outline: 3px solid var(--color-accent);
-            outline-offset: 4px;
-            border-radius: 2px;
-        }
-        .faq-toggle {
-            flex-shrink: 0;
-            width: 24px;
-            height: 24px;
-            transition: transform 0.3s ease;
-        }
-        .faq-item.active .faq-toggle {
-            transform: rotate(45deg);
-        }
-        .faq-answer {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease, padding-top 0.3s ease;
-        }
-        .faq-item.active .faq-answer {
-            max-height: 500px;
-            padding-top: 16px;
-        }
-        .faq-answer p {
-            color: var(--color-text-light);
-            line-height: 1.7;
-        }
-        .faq-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 48px;
-        }
-        @media (max-width: 768px) {
-            .faq-grid { grid-template-columns: 1fr; }
-        }
-    </style>
-    <link rel="canonical" href="https://sidewalkstoriesla.org/faq.html">
-<script type="application/ld+json">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidewalk Stories LA FAQ | Pilot, Permits, Funding & Accessibility</title>
+  <meta name="description" content="Clear answers about Sidewalk Stories LA, its Los Angeles sidewalk-safety and youth public-art pilot, permitting, funding, accessibility, and nonprofit status.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="https://sidewalkstoriesla.org/faq.html">
+  <meta property="og:title" content="Sidewalk Stories LA FAQ | Pilot, Permits, Funding & Accessibility">
+  <meta property="og:description" content="Clear answers about Sidewalk Stories LA, its Los Angeles sidewalk-safety and youth public-art pilot, permitting, funding, accessibility, and nonprofit status.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sidewalkstoriesla.org/faq.html">
+  <meta property="og:image" content="https://sidewalkstoriesla.org/images/og-image.jpg">
+  <meta property="og:site_name" content="Sidewalk Stories LA">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sidewalk Stories LA FAQ | Pilot, Permits, Funding & Accessibility">
+  <meta name="twitter:description" content="Clear answers about Sidewalk Stories LA, its Los Angeles sidewalk-safety and youth public-art pilot, permitting, funding, accessibility, and nonprofit status.">
+  <meta name="twitter:image" content="https://sidewalkstoriesla.org/images/og-image.jpg">
+  <link rel="icon" type="image/jpeg" href="images/logo-signature.jpg">
+  <link rel="stylesheet" href="css/style.css?v=20260730-seo1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://sidewalkstoriesla.org/#organization",
   "name": "Sidewalk Stories LA",
+  "alternateName": "Sidewalk Stories",
   "url": "https://sidewalkstoriesla.org/",
-  "logo": "https://sidewalkstoriesla.org/images/og-image.jpg",
-  "email": "trevor@sidewalkstoriesla.org",
-  "description": "Sidewalk Stories LA repairs broken sidewalk panels and transforms them into community-built mosaics designed by local youth and teaching artists.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Los Angeles",
-    "addressRegion": "CA",
-    "addressCountry": "US"
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://sidewalkstoriesla.org/images/og-image.jpg"
   },
-  "sameAs": [
-    "https://www.instagram.com/sidewalkstoriesla",
-    "https://www.facebook.com/sidewalkstoriesla"
-  ]
+  "email": "trevor@sidewalkstoriesla.org",
+  "description": "Sidewalk Stories LA is an emerging Los Angeles nonprofit initiative developing a youth public-art and sidewalk-safety pilot in Fairfax and Mid-City West.",
+  "founder": {
+    "@type": "Person",
+    "name": "Trevor Damyan",
+    "jobTitle": "Founder"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Los Angeles"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Fairfax, Los Angeles"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Mid-City West, Los Angeles"
+    }
+  ],
+  "knowsAbout": [
+    "sidewalk safety",
+    "youth arts education",
+    "public art",
+    "civic engagement",
+    "pedestrian accessibility",
+    "community development"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "partnerships and community inquiries",
+    "email": "trevor@sidewalkstoriesla.org",
+    "availableLanguage": "English"
+  }
 }
 </script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  "@id": "https://sidewalkstoriesla.org/faq.html#faq",
   "mainEntity": [
     {
       "@type": "Question",
       "name": "What is Sidewalk Stories LA?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sidewalk Stories LA is a California nonprofit that repairs broken sidewalk panels and transforms them into community-built mosaic art. Neighborhood kids work with professional teaching artists and licensed concrete crews to design and install each mosaic. It is part public safety fix, part youth arts program, and part civic engagement project."
+        "text": "Sidewalk Stories LA is an emerging Los Angeles nonprofit initiative developing a pilot that combines sidewalk-safety improvements, youth arts education, and neighborhood participation. The organization is currently completing formation, city coordination, and pilot planning."
       }
     },
     {
       "@type": "Question",
-      "name": "How does the program work?",
+      "name": "How will the pilot work?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Residents use our mobile app to photograph damaged sidewalk panels. The community votes on which panel matters most. A licensed concrete crew repairs the winning panel, and neighborhood kids work with a teaching artist to design and build a mosaic on the fresh surface. We document the process and move to the next panel."
+        "text": "Residents can report damaged panels, the team evaluates candidate locations, and any public-right-of-way work proceeds only after written City direction. A licensed and insured concrete contractor will control structural work. Youth participation will focus on supervised design and approved non-structural art activities."
       }
     },
     {
       "@type": "Question",
-      "name": "Where is the pilot happening?",
+      "name": "Where is the pilot planned?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our Year 1 pilot is focused on the Fairfax / Mid-City West neighborhood of Los Angeles, near Blackburn Avenue and Melrose. This is where our founder, Trevor Damyan, lives and walks every day. We selected this area because it has visible sidewalk damage and an active community that cares about neighborhood improvement."
+        "text": "The proposed first pilot is in Fairfax and Mid-City West in Los Angeles, near Blackburn Avenue and Melrose Avenue. Final sites depend on property-owner coordination, City review, contractor feasibility, accessibility, insurance, and funding."
       }
     },
     {
       "@type": "Question",
-      "name": "How many panels will you complete in Year 1?",
+      "name": "What art treatment will be used on public sidewalks?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We plan to complete 10 panels in Year 1, at a rate of roughly one panel per month. Each panel takes about two weekends: one for design with the kids, and one for installation. The remaining months are for documentation, reporting, and planning Year 2 scaling."
+        "text": "The public-sidewalk concept under review uses City-approved concrete with integral mineral pigments or another approved flush, slip-resistant treatment. It would not use raised tile, grout joints, embedded objects, or an uneven surface in the pedestrian travel path. If the City does not approve a decorative public-sidewalk treatment, youth artwork can move to a nearby private or separately permitted site."
       }
     },
     {
       "@type": "Question",
-      "name": "How much does one panel cost?",
+      "name": "Is the proposed treatment ADA approved?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Each panel costs $2,700 total. That breaks down to $900 for concrete repair by a licensed crew, $1,000 for mosaic materials (tile, grout, sealant, safety gear), $400 for the teaching artist stipend, and $400 for the city right-of-way permit. Sponsors can fund a full panel for $750, with their logo on the mosaic plaque."
+        "text": "No treatment is described as ADA approved unless the City and qualified contractor or engineer confirm it in writing. The design goal is a stable, firm, slip-resistant and flush walking surface that preserves required width, slopes, transitions and other accessibility features."
       }
     },
     {
       "@type": "Question",
-      "name": "Is my donation tax deductible?",
+      "name": "How many panels are planned?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sidewalk Stories LA is a California nonprofit public benefit corporation. We are in the process of applying for 501(c)(3) federal tax-exempt status. Once approved, donations will be tax-deductible retroactively. In the meantime, we can accept donations and will provide receipts for your records. Please consult your tax advisor for specific guidance."
+        "text": "The planning target is a one-panel controlled pilot followed by a possible Year 1 program of up to 10 panels. Expansion depends on approvals, insurance, contractor capacity, community support, documented results, and funding."
       }
     },
     {
       "@type": "Question",
-      "name": "What do sponsors receive?",
+      "name": "How much will the pilot cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Panel sponsors ($750) receive: their business name on a permanent plaque embedded in the mosaic, professional before-and-after photography, social media campaign tagging their account, press release mention, and listing on our website. Neighborhood sponsors ($5,000) and Founding Partners ($10,000+) receive expanded recognition across all Year 1 materials."
+        "text": "The current planning model estimates a total Year 1 budget of $38,700, including approximately $2,700 in variable cost per panel plus formation and operating costs. These figures are planning estimates, not contractor bids or fixed permit fees, and will be updated as written quotes and City requirements are received."
       }
     },
     {
       "@type": "Question",
-      "name": "Can I donate materials instead of money?",
+      "name": "Are contributions currently tax deductible?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, in-kind donations are welcome. We can accept weather-resistant tile, grout, sealant, safety gear for kids, and professional photography services. Please contact us at trevor@sidewalkstoriesla.org to discuss in-kind contributions and receive a donation receipt for the fair market value of materials."
+        "text": "No tax-deductibility claim should be assumed at this stage. California public-benefit formation and federal 501(c)(3) tax-exempt status are pending. Sidewalk Stories LA will clearly disclose the applicable status before accepting charitable gifts; prospective supporters should consult their tax adviser."
       }
     },
     {
       "@type": "Question",
-      "name": "How do I sign up my child to participate?",
+      "name": "How can a foundation or business support the pilot?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Youth participants are recruited through local schools, community centers, and neighborhood networks in the pilot area. If you live in or near Fairfax / Mid-City West and have a child aged 10-17 interested in public art, email us at trevor@sidewalkstoriesla.org. We will add you to the participant list and send details once the first panel is scheduled."
+        "text": "Potential partners can support planning, accessibility review, youth arts programming, materials, documentation, community engagement, insurance, or an approved pilot installation. Recognition will be structured subject to City rules, site agreements, and the final approved design."
       }
     },
     {
@@ -186,39 +154,39 @@
       "name": "Can adults volunteer?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we need adult volunteers for community outreach, event support, photography, documentation, and administrative tasks. All volunteers working directly with youth must complete a background check. Sign up on our volunteer page or email trevor@sidewalkstoriesla.org."
+        "text": "Yes. Volunteer needs include community outreach, photography, documentation, events, fundraising research, and administration. Anyone working directly with youth will be subject to the screening, insurance, and safety requirements adopted before programming begins."
       }
     },
     {
       "@type": "Question",
-      "name": "Do participants need art experience?",
+      "name": "Do youth participants need art experience?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No prior art experience is required. Our teaching artist designs workshops for all skill levels. The process is collaborative: kids sketch patterns, choose colors, and learn mosaic techniques together. The teaching artist guides every step, from initial design to final grout and sealant."
+        "text": "No. The planned workshops are designed for a range of experience levels and emphasize collaborative design, civic participation, teamwork, and neighborhood storytelling."
       }
     },
     {
       "@type": "Question",
-      "name": "Do you need a permit to mosaic a sidewalk?",
+      "name": "What approvals are required?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Any work in the public right-of-way requires a permit from the City of Los Angeles Bureau of Street Services or Bureau of Engineering. We also coordinate with the Department of Cultural Affairs for public art review. Our team handles all permitting before any work begins. This is included in the $400 per panel city permit cost."
+        "text": "Public-right-of-way work requires written direction from the appropriate City of Los Angeles agencies. Sidewalk Stories LA is coordinating with the Bureau of Engineering, Bureau of Street Services, and Department of Cultural Affairs to identify the correct permit and public-art review pathway before construction."
       }
     },
     {
       "@type": "Question",
-      "name": "Is it safe for kids to work on public sidewalks?",
+      "name": "How will youth safety be handled?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Safety is our top priority. All youth participants wear safety gear (gloves, goggles, closed-toe shoes). The teaching artist leads all sessions and enforces safety protocols. A licensed concrete crew handles all structural work. We carry general liability and youth program insurance. Parents sign a liability waiver before participation."
+        "text": "Youth will not perform demolition, concrete placement, finishing, traffic control, or other active construction work. A licensed and insured contractor will control the worksite. Youth activities will occur only under an approved safety plan, adult supervision, parent or guardian consent, and appropriate insurance."
       }
     },
     {
       "@type": "Question",
-      "name": "Who owns the mosaic after it is installed?",
+      "name": "Who will own and maintain an approved installation?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The mosaic becomes part of the public sidewalk infrastructure. The artwork is maintained by the property owner adjacent to the panel, consistent with standard city sidewalk maintenance responsibilities. Sidewalk Stories LA retains the right to document and photograph all panels for promotional, educational, and grant reporting purposes."
+        "text": "Ownership, maintenance responsibility, documentation rights, and repair obligations will be defined in writing with the City, adjacent property owner, contractor, and other required parties before installation. Sidewalk Stories LA will not assume these terms without approval."
       }
     }
   ]
@@ -226,262 +194,159 @@
 </script>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="container">
-            <a href="index.html" class="logo">
-                <img src="images/logo-signature.jpg" alt="Sidewalk Stories LA logo" class="logo-icon">
-                Sidewalk Stories LA
-            </a>
-            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-menu" id="nav-menu">
-                <li><a href="about.html">About</a></li>
-                <li><a href="program.html">Our Program</a></li>
-                <li><a href="contact.html">Get Involved</a></li>
-                <li><a href="volunteer.html">Volunteer</a></li>
-                <li><a href="report-panel.html">Report a Panel</a></li>
-                <li><a href="faq.html" class="active">FAQ</a></li>
-                <li><a href="contact.html#donate" class="btn btn-primary">Donate</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Page Header -->
-    <header class="page-header">
-        <div class="container">
-            <span class="section-label">Questions &amp; Answers</span>
-            <h1>Frequently Asked Questions</h1>
-            <p>Everything you need to know about Sidewalk Stories LA, our pilot program, and how to get involved.</p>
-        </div>
-    </header>
-
-    <!-- FAQ Content -->
-    <section class="content-section">
-        <div class="container">
-            <div class="faq-grid">
-                <div class="faq-column">
-                    <h3 style="margin-bottom: 24px; color: var(--color-accent);">About the Program</h3>
-
-                        <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-1" id="faq-question-1">
-                            What is Sidewalk Stories LA?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-1">
-                            <p>Sidewalk Stories LA is a California nonprofit that repairs broken sidewalk panels and transforms them into community-built mosaic art. Neighborhood kids work with professional teaching artists and licensed concrete crews to design and install each mosaic. It is part public safety fix, part youth     <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-2" id="faq-question-2">
-                            How does the program work?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-2">
-                            <p>Residents use our mobile app to photograph damaged sidewalk panels. The community votes on which panel matters most. A licensed concrete crew repairs the winning panel, and neighborhood kids work with a teaching artist to design and build a mosaic on the fresh surface. We     <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-3" id="faq-question-3">
-                            Where is the pilot happening?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-3">
-                            <p>Our Year 1 pilot is focused on the Fairfax / Mid-City West neighborhood of Los Angeles, near Blackburn Avenue and Melrose. This is where our founder, Trevor Damyan, lives and walks every day. We selected this area because it has visible sidewalk damage and an active comm    <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-4" id="faq-question-4">
-                            How many panels will you complete in Year 1?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-4">
-                            <p>We plan to complete 10 panels in Year 1, at a rate of roughly one panel per month. Each panel takes about two weekends: one for design with the kids, and one for installation. The remaining months are for documentation, reporting, and planning Year 2 scaling.</p>
-                        </div>
-                    </div>                   <div class="faq-answer">
-                              <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-5" id="faq-question-5">
-                            How much does one panel cost?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-5">
-                            <p>Each panel costs $2,700 total. That breaks down to $900 for concrete repair by a licensed crew, $1,000 for mosaic materials (tile, grout, sealant, safety gear), $400 for the teaching artist stipend, and $400 for the city right-of-way permit. Sponsors can fund a full panel    <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-6" id="faq-question-6">
-                            Is my donation tax deductible?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-6">
-                            <p>Sidewalk Stories LA is a California nonprofit public benefit corporation. We are in the process of applying for 501(c)(3) federal tax-exempt status. Once approved, donations will be tax-deductible retroactively. In the meantime, we can accept donations and will provide receipts for your records. Please    <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-7" id="faq-question-7">
-                            What do sponsors receive?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-7">
-                            <p>Panel sponsors ($750) receive: their business name on a permanent plaque embedded in the mosaic, professional before-and-after photography, social media campaign tagging their account, press release mention, and listing on our website. Neighborhood sponsors ($5,000) and Founding Partners ($10,000+) receive e    <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-8" id="faq-question-8">
-                            Can I donate materials instead of money?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-8">
-                            <p>Yes, in-kind donations are welcome. We can accept weather-resistant tile, grout, sealant, safety gear for kids, and professional photography services. Please contact us at trevor@sidewalkstoriesla.org to discuss in-kind contributions and receive a donation receipt for the fair market value of materials.</p>
-                        </div>
-                    </div>r 1 materials.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <div clas    <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-9" id="faq-question-9">
-                            How do I sign up my child to participate?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-9">
-                            <p>Youth participants are recruited through local schools, community centers, and neighborhood networks in the pilot area. If you live in or near Fairfax / Mid-City West and have a child aged 10-17 interested in public art, email us at trevor@sidewalkstoriesla.org. We will add you to the participant list and    <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-10" id="faq-question-10">
-                            Can adults volunteer?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-10">
-                            <p>Yes, we need adult volunteers for community outreach, event support, photography, documentation, and administrative tasks. All volunteers working directly with youth must complete a background check. Sign up on our <a href="volunteer.html">volunt    <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-11" id="faq-question-11">
-                            Do participants need art experience?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-11">
-                            <p>No prior art experience is required. Our teaching artist designs workshops for all skill levels. The process is collaborative: kids sketch patterns, choose colors, and learn mosaic techniques together. The teaching artist guides every step, from initial design to final grout and sealant.</p>
-                        </div>
-                    </div> x2="19" y2="12"/></svg>
-                        </div>
-     <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-12" id="faq-question-12">
-                            Do you need a permit to mosaic a sidewalk?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-12">
-                            <p>Yes. Any work in the public right-of-way requires a permit from the City of Los Angeles Bureau of Street Services or Bureau of Engineering. We also coordinate with the Department of Cultural Affairs for public art review. Our team handles all permitting before any work begins. This     <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-13" id="faq-question-13">
-                            Is it safe for kids to work on public sidewalks?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-13">
-                            <p>Safety is our top priority. All youth participants wear safety gear (gloves, goggles, closed-toe shoes). The teaching artist leads all sessions and enforces safety protocols. A licensed concrete crew handles all structural work. We carry general liability and youth program insurance. Pa    <div class="faq-item">
-                        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-14" id="faq-question-14">
-                            Who owns the mosaic after it is installed?
-                            <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </button>
-                        <div class="faq-answer" id="faq-answer-14">
-                            <p>The mosaic becomes part of the public sidewalk infrastructure. The artwork is maintained by the property owner adjacent to the panel, consistent with standard city sidewalk maintenance responsibilities. Sidewalk Stories LA retains the right to document and photograph all panels for promotional, educational, and grant reporting purposes.</p>
-                        </div>
-                    </div>                       <div class="faq-question">
-                            Is it safe for kids to work on public sidewalks?
-                            <svg class="faq-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Safety is our top priority. All youth participants wear safety gear (gloves, goggles, closed-toe shoes). The teaching artist leads all sessions and enforces safety protocols. A licensed concrete crew handles all structural work. We carry general liability and youth program insurance. Parents sign a liability waiver before participation.</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            Who owns the mosaic after it is installed?
-                            <svg class="faq-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                        </div>
-                        <div class="faq-answer">
-                            <p>The mosaic becomes part of the public sidewalk infrastructure. The artwork is maintained by the property owner adjacent to the panel, consistent with standard city sidewalk maintenance responsibilities. Sidewalk Stories LA retains the right to document and photograph all panels for promotional, educational, and grant reporting purposes.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section has-bg">
-        <div class="cta-bg" style="background-image: url('images/broken-sidewalk.jpg');"></div>
-        <div class="container" style="position: relative; z-index: 1;">
-            <div class="cta-content">
-                <h2>Still Have Questions?</h2>
-                <p>We would love to hear from you. Whether you are a potential donor, sponsor, volunteer, or just curious about the program, reach out anytime.</p>
-                <div class="cta-buttons">
-                    <a href="contact.html" class="btn btn-primary btn-large">Contact Us</a>
-                    <a href="program.html" class="btn btn-outline-light btn-large">See How It Works</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <a href="index.html" class="logo">
-                        <img src="images/logo-signature.jpg" alt="Sidewalk Stories LA logo" class="logo-icon">
-                        Sidewalk Stories LA
-                    </a>
-                    <p>Repairing broken sidewalks. Building community. One mosaic at a time.</p>
-                    <div class="footer-social">
-                        <a class="social-icon" aria-label="Instagram (coming soon)" aria-disabled="true" tabindex="-1">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                            </svg>
-                        </a>
-                        <a class="social-icon" aria-label="Facebook (coming soon)" aria-disabled="true" tabindex="-1">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                            </svg>
-                        </a>
-                        <a class="social-icon" aria-label="Google Business Profile (coming soon)" aria-disabled="true" tabindex="-1">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <path d="M12 6v6l4 2"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <h4>Explore</h4>
-                    <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="program.html">Our Program</a></li>
-                        <li><a href="stories.html">Stories</a></li>
-                        <li><a href="contact.html">Get Involved</a></li>
-                        <li><a href="volunteer.html">Volunteer</a></li>
-                        <li><a href="report-panel.html">Report a Panel</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="press-kit.html">Press Kit</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Connect</h4>
-                    <ul>
-                        <li><a href="mailto:trevor@sidewalkstoriesla.org">trevor@sidewalkstoriesla.org</a></li>
-                        <li><a aria-disabled="true" tabindex="-1">Instagram (@sidewalkstoriesla) (coming soon)</a></li>
-                        <li><a aria-disabled="true" tabindex="-1">Facebook Page (coming soon)</a></li>
-                        <li><a aria-disabled="true" tabindex="-1">Google Business Profile (coming soon)</a></li>
-                        <li><a href="photo-credits.html">Photo Credits</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Sidewalk Stories LA. A California nonprofit public benefit corporation.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-    <script>
-        // FAQ Accordion
-        function updateFaqState(item, isOpen) {
-            item.classList.toggle('active', isOpen);
-            const question = item.querySelector('.faq-question');
-            if (question) question.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-        }
-
-        document.querySelectorAll('.faq-question').forEach(question => {
-            question.addEventListener('click', () => {
-                const item = question.parentElement;
-                const isActive = item.classList.contains('active');
-                document.querySelectorAll('.faq-item').forEach(i => updateFaqState(i, false));
-                if (!isActive) updateFaqState(item, true);
-            });
-        });
-    </script>
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="index.html" class="logo"><img src="images/logo-signature.jpg" alt="Sidewalk Stories LA logo" class="logo-icon">Sidewalk Stories LA</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span></button>
+    <ul class="nav-menu" id="nav-menu">
+        <li><a href="about.html">About</a></li>
+        <li><a href="program.html">Our Program</a></li>
+        <li><a href="impact.html">Impact & Funding</a></li>
+        <li><a href="contact.html">Get Involved</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="report-panel.html">Report a Panel</a></li>
+        <li><a href="faq.html" class="active">FAQ</a></li>
+        <li><a href="contact.html#donate" class="btn btn-primary">Support the Pilot</a></li>
+    </ul>
+  </div>
+</nav>
+<header class="page-header"><div class="container"><span class="section-label">Questions & Answers</span><h1>Frequently Asked Questions</h1><p>Current, plain-language answers for residents, families, funders, and public partners.</p></div></header>
+<section class="content-section"><div class="container" style="max-width: 900px;">
+  <div class="notice-card" style="margin-bottom:32px;padding:24px;border-left:4px solid var(--color-accent);background:var(--color-bg-alt,#f7f7f4);">
+    <strong>Planning-stage disclosure:</strong> Sidewalk Stories LA is completing nonprofit formation, City coordination, insurance planning, and contractor scoping. No public-right-of-way construction will begin without the required written approvals.
+  </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-1" id="faq-question-1">
+          What is Sidewalk Stories LA?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-1" role="region" aria-labelledby="faq-question-1"><p>Sidewalk Stories LA is an emerging Los Angeles nonprofit initiative developing a pilot that combines sidewalk-safety improvements, youth arts education, and neighborhood participation. The organization is currently completing formation, city coordination, and pilot planning.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-2" id="faq-question-2">
+          How will the pilot work?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-2" role="region" aria-labelledby="faq-question-2"><p>Residents can report damaged panels, the team evaluates candidate locations, and any public-right-of-way work proceeds only after written City direction. A licensed and insured concrete contractor will control structural work. Youth participation will focus on supervised design and approved non-structural art activities.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-3" id="faq-question-3">
+          Where is the pilot planned?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-3" role="region" aria-labelledby="faq-question-3"><p>The proposed first pilot is in Fairfax and Mid-City West in Los Angeles, near Blackburn Avenue and Melrose Avenue. Final sites depend on property-owner coordination, City review, contractor feasibility, accessibility, insurance, and funding.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-4" id="faq-question-4">
+          What art treatment will be used on public sidewalks?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-4" role="region" aria-labelledby="faq-question-4"><p>The public-sidewalk concept under review uses City-approved concrete with integral mineral pigments or another approved flush, slip-resistant treatment. It would not use raised tile, grout joints, embedded objects, or an uneven surface in the pedestrian travel path. If the City does not approve a decorative public-sidewalk treatment, youth artwork can move to a nearby private or separately permitted site.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-5" id="faq-question-5">
+          Is the proposed treatment ADA approved?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-5" role="region" aria-labelledby="faq-question-5"><p>No treatment is described as ADA approved unless the City and qualified contractor or engineer confirm it in writing. The design goal is a stable, firm, slip-resistant and flush walking surface that preserves required width, slopes, transitions and other accessibility features.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-6" id="faq-question-6">
+          How many panels are planned?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-6" role="region" aria-labelledby="faq-question-6"><p>The planning target is a one-panel controlled pilot followed by a possible Year 1 program of up to 10 panels. Expansion depends on approvals, insurance, contractor capacity, community support, documented results, and funding.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-7" id="faq-question-7">
+          How much will the pilot cost?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-7" role="region" aria-labelledby="faq-question-7"><p>The current planning model estimates a total Year 1 budget of $38,700, including approximately $2,700 in variable cost per panel plus formation and operating costs. These figures are planning estimates, not contractor bids or fixed permit fees, and will be updated as written quotes and City requirements are received.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-8" id="faq-question-8">
+          Are contributions currently tax deductible?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-8" role="region" aria-labelledby="faq-question-8"><p>No tax-deductibility claim should be assumed at this stage. California public-benefit formation and federal 501(c)(3) tax-exempt status are pending. Sidewalk Stories LA will clearly disclose the applicable status before accepting charitable gifts; prospective supporters should consult their tax adviser.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-9" id="faq-question-9">
+          How can a foundation or business support the pilot?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-9" role="region" aria-labelledby="faq-question-9"><p>Potential partners can support planning, accessibility review, youth arts programming, materials, documentation, community engagement, insurance, or an approved pilot installation. Recognition will be structured subject to City rules, site agreements, and the final approved design.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-10" id="faq-question-10">
+          Can adults volunteer?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-10" role="region" aria-labelledby="faq-question-10"><p>Yes. Volunteer needs include community outreach, photography, documentation, events, fundraising research, and administration. Anyone working directly with youth will be subject to the screening, insurance, and safety requirements adopted before programming begins.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-11" id="faq-question-11">
+          Do youth participants need art experience?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-11" role="region" aria-labelledby="faq-question-11"><p>No. The planned workshops are designed for a range of experience levels and emphasize collaborative design, civic participation, teamwork, and neighborhood storytelling.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-12" id="faq-question-12">
+          What approvals are required?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-12" role="region" aria-labelledby="faq-question-12"><p>Public-right-of-way work requires written direction from the appropriate City of Los Angeles agencies. Sidewalk Stories LA is coordinating with the Bureau of Engineering, Bureau of Street Services, and Department of Cultural Affairs to identify the correct permit and public-art review pathway before construction.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-13" id="faq-question-13">
+          How will youth safety be handled?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-13" role="region" aria-labelledby="faq-question-13"><p>Youth will not perform demolition, concrete placement, finishing, traffic control, or other active construction work. A licensed and insured contractor will control the worksite. Youth activities will occur only under an approved safety plan, adult supervision, parent or guardian consent, and appropriate insurance.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-14" id="faq-question-14">
+          Who will own and maintain an approved installation?
+          <svg class="faq-toggle" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-answer-14" role="region" aria-labelledby="faq-question-14"><p>Ownership, maintenance responsibility, documentation rights, and repair obligations will be defined in writing with the City, adjacent property owner, contractor, and other required parties before installation. Sidewalk Stories LA will not assume these terms without approval.</p></div>
+      </div>
+</div></section>
+<section class="cta-section has-bg"><div class="cta-bg" style="background-image:url('images/broken-sidewalk.jpg');"></div><div class="container" style="position:relative;z-index:1;"><div class="cta-content"><h2>Have a question we did not answer?</h2><p>We welcome questions from neighbors, funders, artists, contractors, and public agencies.</p><div class="cta-buttons"><a class="btn btn-primary btn-large" href="mailto:trevor@sidewalkstoriesla.org">Email Trevor</a><a class="btn btn-outline-light btn-large" href="impact.html">Review Impact & Funding</a></div></div></div></section>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="images/logo-signature.jpg" alt="Sidewalk Stories LA logo" class="logo-icon">Sidewalk Stories LA</a>
+        <p>Safer sidewalks, youth creativity, and neighborhood stories.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="program.html">Our Program</a></li>
+          <li><a href="impact.html">Impact & Funding</a></li>
+          <li><a href="stories.html">Stories</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="press-kit.html">Press Kit</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="mailto:trevor@sidewalkstoriesla.org">trevor@sidewalkstoriesla.org</a></li>
+          <li><a href="contact.html">Partnership inquiries</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="report-panel.html">Report a panel</a></li>
+          <li><a href="photo-credits.html">Photo Credits</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 Sidewalk Stories LA. An emerging Los Angeles nonprofit initiative; California formation and federal tax-exempt status pending.</p></div>
+  </div>
+</footer>
+<script src="js/main.js?v=20260730-seo2"></script>
 </body>
 </html>

@@ -6,6 +6,7 @@
     <link rel="icon" type="image/jpeg" href="images/logo-signature.jpg">
     <title>Press Kit | Sidewalk Stories LA</title>
     <meta name="description" content="Download logos, photos, fact sheets, and founder bios for media coverage of Sidewalk Stories LA.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
     <meta property="og:title" content="Press Kit | Sidewalk Stories LA">
     <meta property="og:description" content="Media assets and contact information for Sidewalk Stories LA.">
     <meta property="og:type" content="website">
@@ -16,8 +17,9 @@
     <meta name="twitter:title" content="Press Kit | Sidewalk Stories LA">
     <meta name="twitter:description" content="Media assets and contact information for Sidewalk Stories LA.">
     <meta name="twitter:image" content="https://sidewalkstoriesla.org/images/og-image.jpg">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=20260730-seo1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
         .press-grid {
@@ -98,21 +100,49 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://sidewalkstoriesla.org/#organization",
   "name": "Sidewalk Stories LA",
+  "alternateName": "Sidewalk Stories",
   "url": "https://sidewalkstoriesla.org/",
-  "logo": "https://sidewalkstoriesla.org/images/og-image.jpg",
-  "email": "trevor@sidewalkstoriesla.org",
-  "description": "Sidewalk Stories LA repairs broken sidewalk panels and transforms them into community-built mosaics designed by local youth and teaching artists.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Los Angeles",
-    "addressRegion": "CA",
-    "addressCountry": "US"
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://sidewalkstoriesla.org/images/og-image.jpg"
   },
-  "sameAs": [
-    "https://www.instagram.com/sidewalkstoriesla",
-    "https://www.facebook.com/sidewalkstoriesla"
-  ]
+  "email": "trevor@sidewalkstoriesla.org",
+  "description": "Sidewalk Stories LA is an emerging Los Angeles nonprofit initiative developing a youth public-art and sidewalk-safety pilot in Fairfax and Mid-City West.",
+  "founder": {
+    "@type": "Person",
+    "name": "Trevor Damyan",
+    "jobTitle": "Founder"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Los Angeles"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Fairfax, Los Angeles"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Mid-City West, Los Angeles"
+    }
+  ],
+  "knowsAbout": [
+    "sidewalk safety",
+    "youth arts education",
+    "public art",
+    "civic engagement",
+    "pedestrian accessibility",
+    "community development"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "partnerships and community inquiries",
+    "email": "trevor@sidewalkstoriesla.org",
+    "availableLanguage": "English"
+  }
 }
 </script>
 </head>
@@ -132,6 +162,7 @@
             <ul class="nav-menu" id="nav-menu">
                 <li><a href="about.html">About</a></li>
                 <li><a href="program.html">Our Program</a></li>
+                <li><a href="impact.html">Impact &amp; Funding</a></li>
                 <li><a href="contact.html">Get Involved</a></li>
                 <li><a href="volunteer.html">Volunteer</a></li>
                 <li><a href="report-panel.html">Report a Panel</a></li>
@@ -255,7 +286,7 @@
             <div class="section-grid">
                 <div class="section-content">
                     <h3>Trevor Damyan, Founder &amp; Board President</h3>
-                    <p>Trevor Damyan is the founder of Sidewalk Stories LA, a California nonprofit public benefit corporation that repairs broken sidewalks and transforms them into community mosaics designed and built by neighborhood youth.</p>
+                    <p>Trevor Damyan is the founder of Sidewalk Stories LA, an emerging Los Angeles nonprofit initiative developing a sidewalk-safety and youth public-art pilot in Fairfax and Mid-City West.</p>
                     <p>He lives in the Fairfax / Mid-City West neighborhood of Los Angeles and walks past cracked sidewalk panels every day. With a decade of experience in structured finance and nonprofit formation, Trevor brings disciplined project management and community relationship building to the civic art space.</p>
                     <p>Trevor is a member of The Pottery Room in Culver City and regularly attends Urban Land Institute meetings, where he tracks LA infrastructure and pedestrian safety trends.</p>
                     <p><strong>Contact:</strong> trevor@sidewalkstoriesla.org</p>
@@ -267,14 +298,13 @@
 
                         <div class="section-grid reverse" style="margin-top: 64px;">
                 <div class="section-image">
-                    <img src="images/jason-clement.jpg" alt="Jason Clement" style="width: 100%; border-radius: var(--radius); box-shadow: var(--shadow-md); aspect-ratio: 4/3; object-fit: cover;">
+                    <img src="images/jason-ciment.jpg" alt="Jason Ciment monogram placeholder" style="width: 100%; border-radius: var(--radius); box-shadow: var(--shadow-md); aspect-ratio: 4/3; object-fit: cover;">
                 </div>
                 <div class="section-content">
-                    <h3>Jason Clement, Founding Tech Partner & Board Member</h3>
-                    <p>Jason Clement is the founding technology partner at Sidewalk Stories LA, responsible for the mobile app that powers resident photo submissions, community voting, and public before/after documentation.</p>
-                    <p>He previously built a sidewalk photo and geolocation app for a political campaign, which now serves as the technical backbone for Sidewalk Stories LA's community engagement platform.</p>
-                    <p>Jason serves on the board in a light, title-aligned tech role, providing platform oversight without day-to-day nonprofit operations duties.</p>
-                    <p><strong>Contact:</strong> jason@sidewalkstoriesla.org</p>
+                    <h3>Jason Ciment, Founding Tech Advisor</h3>
+                    <p>Jason Ciment is a co-founder of GetVisible and a digital marketing entrepreneur who advises Sidewalk Stories LA on technology and digital engagement.</p>
+                    <p>His experience with a campaign sidewalk-reporting platform helped inform the nonprofit&rsquo;s approach. Sidewalk Stories LA is developing and owning its current community reporting platform in-house.</p>
+                    <p>Jason is loosely associated as a technology sounding board without day-to-day nonprofit operations or fiduciary duties.</p>
                 </div>
             </div>
 
@@ -297,9 +327,9 @@
                     </div>
                 </div>
                 <div class="section-content">
-                    <h3>Jim De Vico, Director & Board Treasurer</h3>
-                    <p>Jim De Vico is a founding board member and Board Treasurer of Sidewalk Stories LA. He provides financial oversight as the nonprofit forms, opens its bank account, and runs a disciplined Year 1 pilot budget.</p>
-                    <p>Jim helps the board track cash flow, grant and sponsorship revenue, and the path to a clean first Form 990 reporting cycle.</p>
+                    <h3>Jim De Vico, Director & Operations Lead</h3>
+                    <p>Jim De Vico is a founding board member and Operations Lead of Sidewalk Stories LA. A Principal and Fractional COO at Praxis LA, he brings operating discipline and implementation experience to the organization.</p>
+                    <p>Jim helps translate board priorities into practical systems for partner coordination, vendor management, and disciplined pilot execution.</p>
                     <p><strong>Contact:</strong> jim@sidewalkstoriesla.org</p>
                 </div>
             </div>
@@ -417,6 +447,7 @@
                     <ul>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="program.html">Our Program</a></li>
+                <li><a href="impact.html">Impact &amp; Funding</a></li>
                         <li><a href="stories.html">Stories</a></li>
                         <li><a href="contact.html">Get Involved</a></li>
                         <li><a href="volunteer.html">Volunteer</a></li>
@@ -437,11 +468,11 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Sidewalk Stories LA. A California nonprofit public benefit corporation.</p>
+                <p>&copy; 2026 Sidewalk Stories LA. An emerging Los Angeles nonprofit initiative; California formation and federal tax-exempt status pending.</p>
             </div>
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="js/main.js?v=20260730-seo2"></script>
 </body>
 </html>

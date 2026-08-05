@@ -6,8 +6,10 @@
     <link rel="icon" type="image/jpeg" href="images/logo-signature.jpg">
     <title>Photo Credits | Sidewalk Stories LA</title>
     <meta name="description" content="Photo attribution for Sidewalk Stories LA website stock photography.">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="robots" content="noindex,follow">
+    <link rel="stylesheet" href="css/style.css?v=20260730-seo1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
         .credits-table {
@@ -42,21 +44,49 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://sidewalkstoriesla.org/#organization",
   "name": "Sidewalk Stories LA",
+  "alternateName": "Sidewalk Stories",
   "url": "https://sidewalkstoriesla.org/",
-  "logo": "https://sidewalkstoriesla.org/images/og-image.jpg",
-  "email": "trevor@sidewalkstoriesla.org",
-  "description": "Sidewalk Stories LA repairs broken sidewalk panels and transforms them into community-built mosaics designed by local youth and teaching artists.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Los Angeles",
-    "addressRegion": "CA",
-    "addressCountry": "US"
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://sidewalkstoriesla.org/images/og-image.jpg"
   },
-  "sameAs": [
-    "https://www.instagram.com/sidewalkstoriesla",
-    "https://www.facebook.com/sidewalkstoriesla"
-  ]
+  "email": "trevor@sidewalkstoriesla.org",
+  "description": "Sidewalk Stories LA is an emerging Los Angeles nonprofit initiative developing a youth public-art and sidewalk-safety pilot in Fairfax and Mid-City West.",
+  "founder": {
+    "@type": "Person",
+    "name": "Trevor Damyan",
+    "jobTitle": "Founder"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Los Angeles"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Fairfax, Los Angeles"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Mid-City West, Los Angeles"
+    }
+  ],
+  "knowsAbout": [
+    "sidewalk safety",
+    "youth arts education",
+    "public art",
+    "civic engagement",
+    "pedestrian accessibility",
+    "community development"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "partnerships and community inquiries",
+    "email": "trevor@sidewalkstoriesla.org",
+    "availableLanguage": "English"
+  }
 }
 </script>
 </head>
@@ -76,6 +106,7 @@
             <ul class="nav-menu" id="nav-menu">
                 <li><a href="about.html">About</a></li>
                 <li><a href="program.html">Our Program</a></li>
+                <li><a href="impact.html">Impact &amp; Funding</a></li>
                 <li><a href="contact.html">Get Involved</a></li>
                 <li><a href="volunteer.html">Volunteer</a></li>
                 <li><a href="report-panel.html">Report a Panel</a></li>
@@ -90,14 +121,14 @@
         <div class="container">
             <span class="section-label">Transparency</span>
             <h1>Photo Credits</h1>
-            <p>We use free stock photography to illustrate our mission until we complete our first pilot panels. All photos below are used under the Pexels free license.</p>
+            <p>We use a mix of original neighborhood photography and free stock photography to illustrate our mission until we complete our first pilot panels.</p>
         </div>
     </header>
 
     <!-- Credits Section -->
     <section class="content-section">
         <div class="container">
-            <p style="color: var(--color-text-light);">Actual pilot photos of repaired sidewalk panels, youth workshops, and neighborhood events will replace these illustrative images once the program begins.</p>
+            <p style="color: var(--color-text-light);">Our damaged-sidewalk image is an original neighborhood photo. Pilot photos of repaired panels, youth workshops, and events will replace the remaining illustrative images as the program begins.</p>
 
             <table class="credits-table">
                 <thead>
@@ -109,9 +140,9 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Broken sidewalk panels (before)</td>
-                        <td>Emanuele Borri</td>
-                        <td><a href="https://www.pexels.com/photo/close-up-of-a-cracked-asphalt-road-surface-29422321/" target="_blank" rel="noopener">Pexels</a></td>
+                        <td>Cracked and lifted sidewalk panel (before)</td>
+                        <td>Sidewalk Stories LA</td>
+                        <td>Original neighborhood photo</td>
                     </tr>
                     <tr>
                         <td>Colorful mosaic tile detail (after)</td>
@@ -204,6 +235,7 @@
                     <ul>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="program.html">Our Program</a></li>
+                <li><a href="impact.html">Impact &amp; Funding</a></li>
                         <li><a href="stories.html">Stories</a></li>
                         <li><a href="contact.html">Get Involved</a></li>
                         <li><a href="volunteer.html">Volunteer</a></li>
@@ -224,11 +256,11 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Sidewalk Stories LA. A California nonprofit public benefit corporation.</p>
+                <p>&copy; 2026 Sidewalk Stories LA. An emerging Los Angeles nonprofit initiative; California formation and federal tax-exempt status pending.</p>
             </div>
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="js/main.js?v=20260730-seo2"></script>
 </body>
 </html>

@@ -190,28 +190,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Intersection Observer for fade-in animations on scroll
-    const observerOptions = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.1
-    };
-
-    const observer = new IntersectionObserver(function(entries) {
-        entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-                entry.target.style.opacity = '1';
-                entry.target.style.transform = 'translateY(0)';
-            }
+    // Accessible FAQ accordion
+    const faqButtons = document.querySelectorAll('.faq-question');
+    faqButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+            const item = button.closest('.faq-item');
+            if (!item) return;
+            const isOpen = item.classList.toggle('active');
+            button.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
         });
-    }, observerOptions);
-
-    // Observe process cards, benefit items, and pilot cards
-    const animateElements = document.querySelectorAll('.process-card, .benefit-item, .pilot-card, .gallery-item');
-    animateElements.forEach(function(el) {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(20px)';
-        el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-        observer.observe(el);
     });
+
+    // Content is intentionally visible by default. Scroll effects must never hide
+    // essential copy or cards from users, print/PDF output, or full-page crawlers.
+    // Keep motion optional and progressive rather than a rendering dependency.
 });
