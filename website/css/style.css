@@ -1844,3 +1844,82 @@ p {
         padding: 40px 0;
     }
 }
+
+/* Site 1 sponsor levels (four cards, matches the business flyer) */
+.pilot-cards.four {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.pilot-cards.four .pilot-card {
+    padding: 36px 20px;
+}
+
+.pilot-cards.four .pilot-card h3 {
+    font-size: 1.8rem;
+}
+
+.sponsor-perks {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto 24px;
+}
+
+/* Today and tomorrow: colored concrete now, tile mosaics later */
+.roadmap-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.roadmap-step {
+    background: var(--color-white);
+    border-radius: var(--radius);
+    padding: 28px 24px;
+    box-shadow: var(--shadow-sm);
+}
+
+.roadmap-step .roadmap-when {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    margin-bottom: 8px;
+}
+
+.roadmap-step h3 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+
+/* Georgi and Judi, our corgis, tucked into the footer */
+.footer-corgis {
+    display: block;
+    width: 120px;
+    height: auto;
+    margin: 0 auto 16px;
+    opacity: 0.85;
+}
+
+@media (max-width: 992px) {
+    .pilot-cards.four {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .roadmap-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .pilot-cards.four {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Keep the Site 1 budget table inside a phone screen */
+@media (max-width: 600px) {
+    .budget-table th:nth-child(2),
+    .budget-table td:nth-child(2) {
+        display: none;
+    }
+}
